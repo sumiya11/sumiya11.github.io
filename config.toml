@@ -1,7 +1,7 @@
 baseURL = "https://example.edu"
 languageCode = "en-us"
 title = "Alexander Demin"
-theme = "avicenna"
+theme = "avicenna2"
 googleAnalytics = "UA-1234-6"
 timeout=3000
 
