@@ -1,6 +1,6 @@
-baseURL = "https://example.edu"
+baseURL = "https://sumiya11.github.io"
 languageCode = "en-us"
-title = "Hadi Sinaee"
+title = "Alexander Demin"
 theme = "avicenna"
 googleAnalytics = "UA-1234-6"
 timeout=3000
