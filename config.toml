@@ -14,7 +14,7 @@ publishDir = "docs"
 
 [[params.affilation]]
   name = "HSE University"
-  position = "Bachelor student"
+  # position = "Bachelor student"
   contact = "asdemin_2[at]edu.hse.ru"
 
 # [[params.affilation]]
