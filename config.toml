@@ -2,8 +2,8 @@ baseURL = "https://sumiya11.github.io"
 languageCode = "en-us"
 title = "Alexander Demin"
 theme = "avicenna"
-googleAnalytics = "UA-1234-6"
-timeout=3000
+# googleAnalytics = "UA-1234-6"
+# timeout=3000
 
 [params]
   subtitle= "Bachelor student"
