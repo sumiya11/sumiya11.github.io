@@ -41,7 +41,7 @@ timeout=3000
 [[params.introduction.paragraph]]
   text="""I am an undergraduate student in Computer Science at HSE University, majoring in machine learning. At the moment, I work at Max Planck Institute in the field of computer algebra."""
 [[params.introduction.paragraph]]
-  text="""I was fortunate to work with Gleb Pogudin at Polytechnique de Paris, Tommaso Dorigo at INFN, and numerous other amazing collaborators."""
+  text="""Before, I was fortunate to work with Gleb Pogudin at Polytechnique de Paris, Tommaso Dorigo at INFN, and numerous other amazing collaborators."""
 
 # [[params.projects]]
 # 	[[params.projects.project]]
