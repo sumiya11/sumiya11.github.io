@@ -13,7 +13,7 @@ publishDir = "public"
   blog="http://myblog.edu"
 
 [[params.affilation]]
-  name = "HSE University"
+  name = "HSE Universit"
   # position = "Bachelor student"
   contact = "asdemin_2[at]edu.hse.ru"
 
