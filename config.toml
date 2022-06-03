@@ -1,4 +1,4 @@
-baseURL = "https://github.com/sumiya11/sumiya11.github.io/tree/master/public"
+baseURL = "https://raw.githubusercontent.com/sumiya11/sumiya11.github.io/master/public/"
 languageCode = "en-us"
 title = "Alexander Demin"
 theme = "sumiya"
