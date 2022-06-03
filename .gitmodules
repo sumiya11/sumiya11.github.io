@@ -1,6 +1,0 @@
-[submodule "themes/papermod"]
-	path = themes/papermod
-	url = https://github.com/adityatelange/hugo-PaperMod
-[submodule "themes/avicenna"]
-	path = themes/avicenna
-	url = https://github.com/hadisinaee/avicenna
