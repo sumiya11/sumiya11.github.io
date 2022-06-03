@@ -7,7 +7,7 @@ publishDir = "public"
 # timeout=3000
 
 [params]
-  subtitle= "Bachelor student"
+  # subtitle= "Bachelor student"
   # interests="Deep Reinforcement Learning, Machine Learning "
   cv_name= "mycv.pdf"
   blog="http://myblog.edu"
