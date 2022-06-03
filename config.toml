@@ -1,7 +1,7 @@
 baseURL = "https://raw.githubusercontent.com/sumiya11/sumiya11.github.io/master/public/"
 languageCode = "en-us"
 title = "Alexander Demin"
-theme = "Sumiya"
+theme = "sumiya"
 publishDir = "public"
 # googleAnalytics = "UA-1234-6"
 # timeout=3000
