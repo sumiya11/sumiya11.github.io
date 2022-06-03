@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Alexander Demin</title>
-    <link>https://github.com/sumiya11/sumiya11.github.io/tree/master/public/categories/</link>
+    <link>https://raw.githubusercontent.com/sumiya11/sumiya11.github.io/master/public/categories/</link>
     <description>Recent content in Categories on Alexander Demin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://github.com/sumiya11/sumiya11.github.io/tree/master/public/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://raw.githubusercontent.com/sumiya11/sumiya11.github.io/master/public/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

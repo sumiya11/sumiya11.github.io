@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://github.com/sumiya11/sumiya11.github.io/tree/master/public/</loc>
+    <loc>https://raw.githubusercontent.com/sumiya11/sumiya11.github.io/master/public/</loc>
   </url><url>
-    <loc>https://github.com/sumiya11/sumiya11.github.io/tree/master/public/categories/</loc>
+    <loc>https://raw.githubusercontent.com/sumiya11/sumiya11.github.io/master/public/categories/</loc>
   </url><url>
-    <loc>https://github.com/sumiya11/sumiya11.github.io/tree/master/public/tags/</loc>
+    <loc>https://raw.githubusercontent.com/sumiya11/sumiya11.github.io/master/public/tags/</loc>
   </url>
 </urlset>
