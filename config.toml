@@ -6,11 +6,16 @@ publishDir = "public"
 # googleAnalytics = "UA-1234-6"
 # timeout=3000
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [params]
   # subtitle= "Bachelor student"
   # interests="Deep Reinforcement Learning, Machine Learning "
   cv_name= "mycv.pdf"
   blog="http://myblog.edu"
+
+  custom_css = ["/css/main.css", "/css/normalize.css"]
 
 [[params.affilation]]
   name = "HSE University"
