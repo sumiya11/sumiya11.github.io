@@ -1,17 +1,17 @@
 ---
-title: "Your Paper Name Goes Here"
+title: "F5: A REDUCE Package for Signature-based Gröbner Basis Computation"
 authors:
-- Your Full Name
-- Another Researcher
-date: "2018-09-01"
+- Alexander Demin
+- Hamid Rahkooy, and Thomas Sturm
+date: "2022-09-01"
 
-publication: "Journal of Machine Learning"
+publication: "Computer Algebra in Scientific Computing"
 
-links:
-    pdf: https://github.com/hadisinaee/avicenna
-    code: https://github.com/hadisinaee/avicenna
-    slides: https://github.com/hadisinaee/avicenna
-    video: https://github.com/hadisinaee/avicenna
+#links:
+#    pdf: https://github.com/hadisinaee/avicenna
+#    code: https://github.com/hadisinaee/avicenna
+#    slides: https://github.com/hadisinaee/avicenna
+#    video: https://github.com/hadisinaee/avicenna
 
 ---
 

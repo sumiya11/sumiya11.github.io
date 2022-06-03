@@ -12,15 +12,15 @@ blog: true
 
 socials:
 #    twitter: "YOUR_NAME"
-    github: "YOUR_NAME"
+    github: "sumiya11/"
 #    facebook: "YOUR_NAME"
-    linkedin: "YOUR_NAME"
+    linkedin: "alexander-demin-399166221/"
 #    twitch: "YOUR_NAME"
 #    google_scholar: "YOUR_NAME"
 
 affiliations:
     - affiliation:
-        # title: "Ph.D."
+        # title: "Bachelor student"
         name: "HSE University"
         email: "as.demin@hse.ru"
     #- affiliation:
