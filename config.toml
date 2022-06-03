@@ -13,9 +13,9 @@ publishDir = "public"
   blog="http://myblog.edu"
 
 [[params.affilation]]
-  name = "HSE Universit"
+  name = "HSE University"
   # position = "Bachelor student"
-  contact = "asdemin_2[at]edu.hse.ru"
+  contact = "as.demin[at]hse.ru"
 
 # [[params.affilation]]
 #   name = "MyCoolStartup"
