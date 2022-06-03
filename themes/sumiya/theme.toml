@@ -16,6 +16,6 @@ min_version = "0.41.0"
 
 # If porting an existing theme
 [original]
-  name = ""
+  name = "Avicenna"
   homepage = ""
   repo = ""
