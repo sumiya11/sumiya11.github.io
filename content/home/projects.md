@@ -6,7 +6,7 @@ weight: 4
 content_type: "projects"
 
 section_settings:
-    show_section: true
+    show_section: false
     title: ''
     subtitle: 'Custom Subtitle: see my github for the complete list'
 ---

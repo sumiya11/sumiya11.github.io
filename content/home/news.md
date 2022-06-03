@@ -6,7 +6,7 @@ weight: 2
 content_type: "news"
 
 section_settings:
-    show_section: true
+    show_section: false
     title: ''
     subtitle: 'news section subtitle'
 ---
