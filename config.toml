@@ -13,7 +13,7 @@ unsafe= true
   # subtitle= "Bachelor student"
   # interests="Deep Reinforcement Learning, Machine Learning "
   cv_name= "mycv.pdf"
-  blog="http://myblog.edu"
+  blog="https://sumiya11.github.io/blog"
 
   custom_css = ["/css/main.css", "/css/normalize.css"]
 
