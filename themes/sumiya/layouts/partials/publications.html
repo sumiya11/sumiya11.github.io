@@ -15,10 +15,14 @@
 			{{ end }}
 			{{ $publication.dest | markdownify }}.
 
-			{{ if or ($publication.code_link) $publication.blog_link }}
+			{{ if or ($publication.code_link) $publication.blog_link ($publication.pdf_link) }}
 			<span class="code_blog">
 				{{ with $publication.code_link }}
 				[<a href="{{ $publication.code_link }}">code</a>]
+				{{ end }}
+
+				{{ with $publication.pdf_link }}
+				[<a href="{{ $publication.pdf_link }}">pdf</a>]
 				{{ end }}
 
 				{{ with $publication.blog_link }}

@@ -86,9 +86,9 @@ unsafe= true
     name = "A Semi-supervised Learning Method for the Search of Rare Processes in LHC Data, 2022"
     authors = "Hevjin Yarar, __Alexander Demin__, Tommaso Dorigo, Luca Quagliarella, and Andrey Ustyuzhanin"
     dest  = "Report 2.1 of INSIGHTS ITN to European Commission"
-    # link = "https://mypaperishere.com"
-    # code_link = "https://thecoderepo.com"
-    # blog_link = "https://myblogaboutit.com"
+    # link = "mycv.pdf"
+    # code_link = "mycv.pdf"
+    pdf_link = "ranbox_report.pdf"
 
 # [[params.publications]]
 #   year="2019"
