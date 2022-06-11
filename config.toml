@@ -45,9 +45,9 @@ unsafe= true
 [[params.introduction.paragraph]]
   text="""Hi, I’m Alex!"""
 [[params.introduction.paragraph]]
-  text="""I am an undergraduate student in Computer Science at HSE University, majoring in machine learning. At the moment, I work at Max Planck Institute in the field of computer algebra."""
+  text="""I am an undergraduate student in Computer Science at HSE University, majoring in machine learning. At the moment, I work at Max Planck Institute for Informatics in the field of computer algebra."""
 [[params.introduction.paragraph]]
-  text="""Before, I was fortunate to work with Gleb Pogudin at Polytechnique de Paris, Tommaso Dorigo at INFN, and numerous other amazing collaborators."""
+  text="""Before, I was fortunate to work with Gleb Pogudin at École Polytechnique, Tommaso Dorigo at INFN, and numerous other amazing collaborators."""
 
 # [[params.projects]]
 # 	[[params.projects.project]]
@@ -77,7 +77,7 @@ unsafe= true
   [[params.publications.paper]]
     name = "F5: A REDUCE Package for Signature-based Gröbner Basis Computation"
     authors = "__Alexander Demin__, Hamid Rahkooy, and Thomas Sturm"
-    dest  = "CASC 2022"
+    dest  = "submitted to CASC 2022"
     # link = "https://mypaperishere.com"
     # code_link = "https://thecoderepo.com"
     # blog_link = "https://myblogaboutit.com"
