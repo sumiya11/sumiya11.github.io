@@ -20,7 +20,7 @@ unsafe= true
 [[params.affilation]]
   name = "HSE University"
   # position = "Bachelor student"
-  contact = "as.demin[at]hse.ru"
+  contact = "ademin[at]mpi-inf.mpg.de"
 
 # [[params.affilation]]
 #   name = "MyCoolStartup"
