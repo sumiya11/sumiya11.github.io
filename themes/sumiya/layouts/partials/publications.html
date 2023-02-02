@@ -15,7 +15,7 @@
 			{{ end }}
 			{{ $publication.dest | markdownify }}.
 
-			{{ if or ($publication.code_link) $publication.blog_link ($publication.pdf_link) }}
+			{{ if or ($publication.code_link) $publication.arxiv_link ($publication.pdf_link) ($publication.just_link) }}
 			<span class="code_blog">
 				{{ with $publication.code_link }}
 				[<a href="{{ $publication.code_link }}">code</a>]
@@ -25,8 +25,12 @@
 				[<a href="{{ $publication.pdf_link }}">pdf</a>]
 				{{ end }}
 
-				{{ with $publication.blog_link }}
-				[<a href="{{ $publication.blog_link }}">blog</a>]
+				{{ with $publication.arxiv_link }}
+				[<a href="{{ $publication.arxiv_link }}">arxiv</a>]
+				{{ end }}
+
+				{{ with $publication.just_link }}
+				[<a href="{{ $publication.just_link }}">link</a>]
 				{{ end }}
 			</span>
 			{{ end }}

@@ -20,7 +20,7 @@ unsafe= true
 [[params.affilation]]
   name = "HSE University"
   # position = "Bachelor student"
-  contact = "ademin[at]mpi-inf.mpg.de"
+  contact = "asdemin_2[at]edu.hse.ru"
 
 # [[params.affilation]]
 #   name = "MyCoolStartup"
@@ -28,14 +28,14 @@ unsafe= true
 #   contact = "hadi@mycoolstartup.ai"
 
 [[params.social]]
+  name = "Google Scholar"
+  icon = "book"
+  url = "https://scholar.google.com/citations?user=UDodLb4AAAAJ&hl=en"
+
+[[params.social]]
   name = "GitHub"
   icon = "github"
   url = "https://github.com/sumiya11"
-
-# [[params.social]]
-#   name = "Twitter"
-#   icon = "twitter"
-#   url = "https://twitter.com/hadisinaee"
 
 [[params.social]]
   name = "LinkedIn"
@@ -73,25 +73,32 @@ unsafe= true
 # 		code_link = ""
 # 		blog_link = "https://ablogpost.com"
 
-# [[params.publications]]
-#  year="Preprint"
+[[params.publications]]
 
-#  [[params.publications.paper]]
-#    name = "F5: A REDUCE Package for Signature-based Gröbner Basis Computation"
-#    authors = "__Alexander Demin__, Hamid Rahkooy, and Thomas Sturm"
-#    dest  = "submitted to CASC 2022"
-#    # link = "https://mypaperishere.com"
-#    # code_link = "https://thecoderepo.com"
-#    # blog_link = "https://myblogaboutit.com"
-#    pdf_link = "F5_Reduce_CASC22.pdf"
+[[params.publications.paper]]
+  name = "Exact linear reductions of dynamical models"
+  authors = "__Alexander Demin__, Elizaveta Demitraki, and Gleb Pogudin"
+  dest  = "preprint"
+  # link = "https://mypaperishere.com"
+  code_link = "https://github.com/x3042/ExactODEReduction.jl"
+  arxiv_link = "https://arxiv.org/abs/2301.11653"
 
-#  [[params.publications.paper]]
-#    name = "A Semi-supervised Learning Method for the Search of Rare Processes in LHC Data, 2022"
-#    authors = "Hevjin Yarar, __Alexander Demin__, Tommaso Dorigo, Luca Quagliarella, and Andrey Ustyuzhanin"
-#    dest  = "Report 2.1 of INSIGHTS ITN to European Commission"
-#    # link = "mycv.pdf"
-#    # code_link = "mycv.pdf"
-#    pdf_link = "ranbox_report.pdf"
+[[params.publications.paper]]
+  name = "F5: A REDUCE Package for Signature-based Gröbner Basis Computation"
+  authors = "__Alexander Demin__, Hamid Rahkooy, and Thomas Sturm"
+  dest  = "_Computer Algebra in Scientific Computing 2022_"
+  # link = "https://mypaperishere.com"
+  # code_link = "https://thecoderepo.com"
+  just_link = "https://hal.science/hal-03781962"
+  # pdf_link = "F5_Reduce_CASC22.pdf"
+
+[[params.publications.paper]]
+  name = "A Semi-supervised Learning Method for the Search of Rare Processes in LHC Data, 2022"
+  authors = "Hevjin Yarar, __Alexander Demin__, Tommaso Dorigo, Luca Quagliarella, and Andrey Ustyuzhanin"
+  dest  = "_Report 2.1 of INSIGHTS ITN to European Commission_"
+  # link = "mycv.pdf"
+  # code_link = "mycv.pdf"
+  pdf_link = "ranbox_report.pdf"
 
 # [[params.publications]]
 #   year="2019"
