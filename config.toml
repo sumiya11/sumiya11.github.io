@@ -78,7 +78,7 @@ unsafe= true
 [[params.publications.paper]]
   name = "Exact linear reductions of dynamical models"
   authors = "__Alexander Demin__, Elizaveta Demitraki, and Gleb Pogudin"
-  dest  = "preprint"
+  dest  = "_preprint_"
   # link = "https://mypaperishere.com"
   code_link = "https://github.com/x3042/ExactODEReduction.jl"
   arxiv_link = "https://arxiv.org/abs/2301.11653"
