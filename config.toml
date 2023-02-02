@@ -51,34 +51,12 @@ unsafe= true
 [[params.introduction.paragraph]]
   text="""Before, I was fortunate to work with Gleb Pogudin at École Polytechnique, Tommaso Dorigo at INFN, Hamid Rahkooy at Max Planck Institute, and numerous other amazing collaborators."""
 
-# [[params.projects]]
-# 	[[params.projects.project]]
-# 		name = "Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor"
-# 		description  = "Enim facilisis gravida neque convallis a. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse.Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor. In nisl nisi scelerisque eu ultrices vitae auctor."
-# 		project_page = "https://myprojecthomepage.com"
-# 		code_link = "https://coderepo.com"
-# 		blog_link = "https://ablogpost.com"
-#
-#  [[params.projects.project]]
-# 		name = "In nisl nisi scelerisque eu ultrices vitae auctor"
-# 		description  = ""
-# 		project_page = "https://myprojecthomepage.com"
-# 		code_link = "https://coderepo.com"
-# 		blog_link = ""
-#
-#  [[params.projects.project]]
-# 		name = "Integer eget aliquet nibh praesent tristique magna"
-# 		description  = ""
-# 		project_page = "https://myprojecthomepage.com"
-# 		code_link = ""
-# 		blog_link = "https://ablogpost.com"
-
 [[params.publications]]
 
 [[params.publications.paper]]
   name = "Exact linear reductions of dynamical models"
   authors = "__Alexander Demin__, Elizaveta Demitraki, and Gleb Pogudin"
-  dest  = "_preprint_"
+  dest  = "preprint"
   # link = "https://mypaperishere.com"
   code_link = "https://github.com/x3042/ExactODEReduction.jl"
   arxiv_link = "https://arxiv.org/abs/2301.11653"
@@ -86,51 +64,41 @@ unsafe= true
 [[params.publications.paper]]
   name = "F5: A REDUCE Package for Signature-based Gröbner Basis Computation"
   authors = "__Alexander Demin__, Hamid Rahkooy, and Thomas Sturm"
-  dest  = "_Computer Algebra in Scientific Computing 2022_"
+  dest  = "Computer Algebra in Scientific Computing 2022"
   # link = "https://mypaperishere.com"
   # code_link = "https://thecoderepo.com"
   just_link = "https://hal.science/hal-03781962"
   # pdf_link = "F5_Reduce_CASC22.pdf"
 
 [[params.publications.paper]]
-  name = "A Semi-supervised Learning Method for the Search of Rare Processes in LHC Data, 2022"
+  name = "A Semi-supervised Learning Method for the Search of Rare Processes in LHC Data"
   authors = "Hevjin Yarar, __Alexander Demin__, Tommaso Dorigo, Luca Quagliarella, and Andrey Ustyuzhanin"
-  dest  = "_Report 2.1 of INSIGHTS ITN to European Commission_"
+  dest  = "Report 2.1 of INSIGHTS ITN to European Commission, 2022"
   # link = "mycv.pdf"
   # code_link = "mycv.pdf"
   pdf_link = "ranbox_report.pdf"
 
-# [[params.publications]]
-#   year="2019"
-#
-#   [[params.publications.paper]]
-# 		name = "Feugiat sed lectus vestibulum mattis ullamcorper velit sed"
-# 		authors = "Caroll Comes, __Hadi Sinaee__"
-# 		dest  = "Udo Madhu Journal"
-# 		link = "https://mypaperishere.com"
-# 		code_link = "https://thecoderepo.com"
-# 		blog_link = ""
-#
-#   [[params.publications.paper]]
-# 		name = "Venenatis urna cursus eget nunc. Nam aliquam sem et tortor consequat id porta nibh venenatis"
-# 		authors = "Les Larkins, Ana Alvardo, __Hadi Sinaee__ "
-# 		dest  = "Zorka Vita Conference"
-# 		link = "https://mypaperishere.com"
-# 		code_link = ""
-# 		blog_link = "https://myblogaboutit.com"
-#
-#   [[params.publications.paper]]
-# 		name = "Aliquet eget sit amet tellus cras adipiscing enim eu turpis"
-# 		authors = "Les Larkins, __Hadi Sinaee__, Ana Alvardo"
-# 		dest  = "Lena Randa Conference"
-# 		link = "https://mypaperishere.com"
-# 		code_link = ""
-# 		blog_link = ""
-#
-#   [[params.publications.paper]]
-# 		name = "Orci eu lobortis elementum nibh tellus molestie nunc non blandit"
-# 		authors = "__Hadi Sinaee__, Caroll Comes"
-# 		dest  = "Thandeka Radhika Conference"
-# 		link = ""
-# 		code_link = ""
-# 		blog_link = ""
+[[params.presentations]]
+
+  [[params.presentations.presentation]]
+  name = "__Poster__, Automatic Optimization of Derivatives with Polyhedral Compiler"
+  description  = "MODE Workshop on Differentiable Programming for Experiment Design, Greece, 2022"
+  award = "Award-winning poster"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
+
+  [[params.presentations.presentation]]
+  name = "__Conference talk__, F5: A REDUCE Package for Signature-based Gröbner Basis Computation"
+  description  = "Computer Algebra in Scientific Computing, Turkey, 2022"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
+
+  [[params.presentations.presentation]]
+  name = "__Invited talk__, Signature-based Algorithms for Computing Groebner Bases"
+  description  = "Verification of Distributed Systems Group Seminar, Inria, France"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
+

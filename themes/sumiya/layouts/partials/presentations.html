@@ -1,0 +1,49 @@
+<div class="introduction">
+	{{ with .Site.Params.presentations }}
+	<h4>Presentations</h4>
+	<ul>
+		{{- range $index, $presentations_map := $.Site.Params.presentations -}}
+
+		{{ range $elem_index, $presentation := $presentations_map.presentation }}
+		<li>
+			{{ if $presentation.link }}
+			<a href="{{ $presentation.link }}" class="presentations"> {{ $presentation.name }}, {{ $presentation.description }} </a>
+			{{ else }}
+			<p class="presentations"> {{ $presentation.name | markdownify }}, {{ $presentation.description }} </p>
+			{{ end }}
+
+			<!--
+			{{ with $presentation.description }}
+			<span class="presentation_description">
+				{{ . | markdownify}}
+			</span>
+			{{ end }}
+			-->
+
+			{{ if or ($presentation.award) ($presentation.code_link) ($presentation.blog_link) ($presentation.pdf_link) }}
+			<span class="code_blog">
+				{{ with $presentation.award }}
+				[<a>{{ . }}</a>]
+				{{ end }}
+
+				{{ with $presentation.code_link }}
+				[<a href="{{ . }}">code</a>]
+				{{ end }}
+
+				{{ with $presentation.pdf_link }}
+				[<a href="{{ . }}">pdf</a>]
+				{{ end }}
+
+				{{ with $presentation.blog_link }}
+				[<a href="{{ . }}">blog</a>]
+				{{ end }}
+			</span>
+			{{ end }}
+
+		</li>
+		{{ end }}
+
+		{{- end -}}
+	</ul>
+	{{ end }}
+</div>

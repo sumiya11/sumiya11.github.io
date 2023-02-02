@@ -2,18 +2,19 @@
 	{{ with .Site.Params.publications }}
 	<h4>Publications</h4>
 
-	{{- range $index, $publications := $.Site.Params.publications -}}
-	<div class="year">{{ $publications.year }}</div>
-
 	<ul>
+		{{- range $index, $publications := $.Site.Params.publications -}}
 		{{ range $elem_index, $publication := $publications.paper }}
 		<li>
 			{{ if $publication.link }}
-			<a href="{{ $publication.link }}" class="publications"> {{ $publication.name }}, </a>
+			<a href="{{ $publication.link }}" class="publications"> {{ $publication.name }}, {{$publication.dest | markdownify }}</a>
 			{{ else }}
-			<p class="publications"> {{ $publication.name }}, </p>
+			<p class="publications"> {{ $publication.name }}, {{$publication.dest | markdownify }} </p>
 			{{ end }}
-			{{ $publication.dest | markdownify }}.
+
+			<span class="collaborators">
+				{{ $publication.authors | markdownify }}
+			</span>
 
 			{{ if or ($publication.code_link) $publication.arxiv_link ($publication.pdf_link) ($publication.just_link) }}
 			<span class="code_blog">
@@ -35,9 +36,6 @@
 			</span>
 			{{ end }}
 
-			<span class="collaborators">
-				{{ $publication.authors | markdownify }}
-			</span>
 		</li>
 		{{ end }}
 	</ul>
