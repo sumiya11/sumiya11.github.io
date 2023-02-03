@@ -90,14 +90,22 @@ unsafe= true
 
   [[params.presentations.presentation]]
   name = "__Conference talk__, F5: A REDUCE Package for Signature-based Gröbner Basis Computation"
-  description  = "Computer Algebra in Scientific Computing, Turkey, 2022"
+  description  = "Computer Algebra in Scientific Computing, Turkey, 2022 (online)"
   # project_page = "https://myprojecthomepage.com"
   # code_link = "https://coderepo.com"
   # blog_link = "https://ablogpost.com"
 
   [[params.presentations.presentation]]
   name = "__Invited talk__, Signature-based Algorithms for Computing Groebner Bases"
-  description  = "Verification of Distributed Systems Group Seminar, Inria, France"
+  description  = "Verification of Distributed Systems Group Seminar, France, 2022 (online)"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
+
+    [[params.presentations.presentation]]
+  name = "__Conference talk__, On some applications of Groebner bases"
+  description  = "Scientific Student Conference, HSE University, Russia, 2022"
+  award = "Best student talk"
   # project_page = "https://myprojecthomepage.com"
   # code_link = "https://coderepo.com"
   # blog_link = "https://ablogpost.com"
