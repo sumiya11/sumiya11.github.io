@@ -49,7 +49,7 @@ unsafe= true
 #  text="""I am an undergraduate student in Computer Science at HSE University, majoring in machine learning. At the moment, I work with Chris Elrod in the field of compiler optimization."""
   text="""I am an undergraduate student in Computer Science at HSE University, majoring in machine learning."""
 [[params.introduction.paragraph]]
-  text="""Before, I was fortunate to work with Gleb Pogudin at École Polytechnique, Tommaso Dorigo at INFN, Hamid Rahkooy & Thomas Sturm at Max Planck Institute for Informatics, and numerous other amazing collaborators."""
+  text="""Before, I was fortunate to work with Gleb Pogudin at École Polytechnique, Tommaso Dorigo at INFN, Hamid Rahkooy and Thomas Sturm at Max Planck Institute for Informatics, and numerous other amazing collaborators."""
 
 [[params.publications]]
 
