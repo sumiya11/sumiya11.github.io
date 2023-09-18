@@ -45,11 +45,9 @@ unsafe= true
 [[params.introduction.paragraph]]
   text="""Hi, I’m Alex!"""
 [[params.introduction.paragraph]]
-#  text="""I am an undergraduate student in Computer Science at HSE University, majoring in machine learning. At the moment, I work at Max Planck Institute for Informatics in the field of computer algebra."""
-#  text="""I am an undergraduate student in Computer Science at HSE University, majoring in machine learning. At the moment, I work with Chris Elrod in the field of compiler optimization."""
   text="""I am an undergraduate student in Computer Science at HSE University, majoring in machine learning."""
 [[params.introduction.paragraph]]
-  text="""Before, I was fortunate to work with Gleb Pogudin at École Polytechnique, Tommaso Dorigo at INFN, Hamid Rahkooy and Thomas Sturm at Max Planck Institute for Informatics, and numerous other amazing collaborators."""
+  text="""Before, I was fortunate to work with Gleb Pogudin and Joris van der Hoeven at École Polytechnique, Tommaso Dorigo at INFN, Hamid Rahkooy and Thomas Sturm at Max Planck Institute for Informatics, and numerous other amazing collaborators."""
 
 [[params.publications]]
 
@@ -79,6 +77,13 @@ unsafe= true
   pdf_link = "ranbox_report.pdf"
 
 [[params.presentations]]
+
+ [[params.presentations.presentation]]
+  name = "__Invited talk__, Finding exact linear reductions of dynamical models"
+  description  = "Ecole Polytechnique, The MAX Team seminar, France, 2023"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
 
   [[params.presentations.presentation]]
   name = "__Poster__, Automatic Optimization of Derivatives with Polyhedral Compiler"
