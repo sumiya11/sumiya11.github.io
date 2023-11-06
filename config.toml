@@ -43,7 +43,7 @@ unsafe= true
   url = "https://www.linkedin.com/in/alexander-demin-399166221"
 
 [[params.introduction.paragraph]]
-  text="""Hi, I’m Alex!"""
+  text="""Hi, I am Alex!"""
 [[params.introduction.paragraph]]
   text="""I am an undergraduate student in Computer Science at HSE University."""
 [[params.introduction.paragraph]]
