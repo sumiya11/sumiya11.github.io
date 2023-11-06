@@ -45,7 +45,7 @@ unsafe= true
 [[params.introduction.paragraph]]
   text="""Hi, I’m Alex!"""
 [[params.introduction.paragraph]]
-  text="""I am an undergraduate student in Computer Science at HSE University, majoring in machine learning."""
+  text="""I am an undergraduate student in Computer Science at HSE University."""
 [[params.introduction.paragraph]]
   text="""Before, I was fortunate to work with Gleb Pogudin and Joris van der Hoeven at École Polytechnique, Tommaso Dorigo at INFN, Hamid Rahkooy and Thomas Sturm at Max Planck Institute for Informatics, and numerous other amazing collaborators."""
 
