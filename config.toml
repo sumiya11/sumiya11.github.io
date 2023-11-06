@@ -49,7 +49,7 @@ unsafe= true
 [[params.introduction.paragraph]]
   text="""Before, I was fortunate to work with Gleb Pogudin and Joris van der Hoeven at École Polytechnique, Tommaso Dorigo at INFN, Hamid Rahkooy and Thomas Sturm at Max Planck Institute for Informatics, and numerous other amazing collaborators."""
 [[params.introduction.paragraph]]
-  text="""Some of my publications can be found at [Google Scholar](https://scholar.google.com/citations?user=UDodLb4AAAAJ&hl=en)."""
+  text="""The list of my publications can be found at [Google Scholar](https://scholar.google.com/citations?user=UDodLb4AAAAJ&hl=en)."""
 
 [[params.publications]]
 
