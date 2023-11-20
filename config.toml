@@ -47,6 +47,8 @@ unsafe= true
 [[params.introduction.paragraph]]
   text="""I am an undergraduate student in Computer Science at HSE University."""
 [[params.introduction.paragraph]]
+  text="""At the moment, I am working with Alejandro Villaverde on structural identifiability of dynamical models."""
+[[params.introduction.paragraph]]
   text="""Before, I was fortunate to work with Gleb Pogudin and Joris van der Hoeven at École Polytechnique, Tommaso Dorigo at INFN, Hamid Rahkooy and Thomas Sturm at Max Planck Institute for Informatics, and numerous other amazing collaborators."""
 [[params.introduction.paragraph]]
   text="""The list of my publications can be found at [Google Scholar](https://scholar.google.com/citations?user=UDodLb4AAAAJ&hl=en)."""
@@ -55,7 +57,7 @@ unsafe= true
 
 [[params.publications.paper]]
   name = "Exact linear reductions of dynamical models"
-  authors = "__Alexander Demin__, Elizaveta Demitraki, and Gleb Pogudin (alphabetical order)"
+  authors = "__Alexander Demin__, Elizaveta Demitraki, and Gleb Pogudin __(alphabetical order)__"
   dest  = "preprint"
   # link = "https://mypaperishere.com"
   code_link = "https://github.com/x3042/ExactODEReduction.jl"
