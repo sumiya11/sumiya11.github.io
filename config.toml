@@ -59,8 +59,8 @@ unsafe= true
   name = "Factoring sparse polynomials fast"
   authors = "__Alexander Demin__ and Joris van der Hoeven __(alphabetical order)__"
   dest  = "preprint"
-  # link = "https://mypaperishere.com"
-  pdf_link = "sparsefact.pdf"
+  link = "https://polytechnique.hal.science/hal-04366390v1"
+  # pdf_link = "sparsefact.pdf"
 
 [[params.publications.paper]]
   name = "Exact linear reductions of dynamical models"
