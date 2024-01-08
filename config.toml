@@ -55,7 +55,7 @@ unsafe= true
 
 [[params.publications.paper]]
   name = "Exact hierarchical reductions of dynamical models via linear transformations"
-  authors = "__Alexander Demin__, Elizaveta Demitraki, and Gleb Pogudin __(alphabetical order)__"
+  authors = "Alexander Demin, Elizaveta Demitraki, and Gleb Pogudin (alphabetical order)"
   dest  = "Communications in Nonlinear Science and Numerical Simulation, 2024"
   just_link = "https://doi.org/10.1016/j.cnsns.2024.107816"
   code_link = "https://github.com/x3042/ExactODEReduction.jl"
@@ -63,20 +63,20 @@ unsafe= true
 
 [[params.publications.paper]]
   name = "Factoring sparse polynomials fast"
-  authors = "__Alexander Demin__ and Joris van der Hoeven __(alphabetical order)__"
+  authors = "Alexander Demin and Joris van der Hoeven (alphabetical order)"
   dest  = "preprint, 2023"
   arxiv_link = "https://arxiv.org/abs/2312.17380"
 
 [[params.publications.paper]]
   name = "Groebner.jl: A package for Gröbner bases computations in Julia"
-  authors = "__Alexander Demin__ and Shashi Gowda"
+  authors = "Alexander Demin and Shashi Gowda"
   dest  = "preprint, 2023"
   code_link = "https://github.com/sumiya11/Groebner.jl"
   arxiv_link = "https://arxiv.org/abs/2301.11653"
 
 [[params.publications.paper]]
   name = "F5: A REDUCE Package for Signature-based Gröbner Basis Computation"
-  authors = "__Alexander Demin__, Hamid Rahkooy, and Thomas Sturm"
+  authors = "Alexander Demin, Hamid Rahkooy, and Thomas Sturm"
   dest  = "Computer Algebra in Scientific Computing 2022"
   # link = "https://mypaperishere.com"
   # code_link = "https://thecoderepo.com"
@@ -85,7 +85,7 @@ unsafe= true
 
 [[params.publications.paper]]
   name = "A Semi-supervised Learning Method for the Search of Rare Processes in LHC Data"
-  authors = "Hevjin Yarar, __Alexander Demin__, Tommaso Dorigo, Luca Quagliarella, and Andrey Ustyuzhanin"
+  authors = "Hevjin Yarar, Alexander Demin, Tommaso Dorigo, Luca Quagliarella, and Andrey Ustyuzhanin"
   dest  = "Report 2.1 of INSIGHTS ITN to European Commission, 2022"
   # link = "mycv.pdf"
   # code_link = "mycv.pdf"
