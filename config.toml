@@ -47,7 +47,7 @@ unsafe= true
 [[params.introduction.paragraph]]
   text="""I am a senior at HSE University, majoring in mathematics and computer science."""
 [[params.introduction.paragraph]]
-  text="""At the moment, I am working with Alejandro Villaverde on structural identifiability of dynamical models."""
+  text="""At the moment, I am working on structural identifiability of dynamical models with Alejandro Villaverde."""
 [[params.introduction.paragraph]]
   text="""The full list of my publications can be found at [Google Scholar](https://scholar.google.com/citations?user=UDodLb4AAAAJ&hl=en)."""
 
