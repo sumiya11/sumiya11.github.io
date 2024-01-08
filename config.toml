@@ -43,31 +43,35 @@ unsafe= true
   url = "https://www.linkedin.com/in/alexander-demin-399166221"
 
 [[params.introduction.paragraph]]
-  text="""Hi, I am Alex!"""
+  text="""Hi, I am Sasha!"""
 [[params.introduction.paragraph]]
-  text="""I am an undergraduate student in Computer Science at HSE University."""
+  text="""I am a senior at HSE University, majoring in mathematics and computer science."""
 [[params.introduction.paragraph]]
   text="""At the moment, I am working with Alejandro Villaverde on structural identifiability of dynamical models."""
 [[params.introduction.paragraph]]
-  text="""Before, I was fortunate to work with Gleb Pogudin and Joris van der Hoeven at École Polytechnique, Tommaso Dorigo at INFN, Hamid Rahkooy and Thomas Sturm at Max Planck Institute for Informatics, and numerous other amazing collaborators."""
-[[params.introduction.paragraph]]
-  text="""The list of my publications can be found at [Google Scholar](https://scholar.google.com/citations?user=UDodLb4AAAAJ&hl=en)."""
+  text="""The full list of my publications can be found at [Google Scholar](https://scholar.google.com/citations?user=UDodLb4AAAAJ&hl=en)."""
 
 [[params.publications]]
 
 [[params.publications.paper]]
-  name = "Factoring sparse polynomials fast"
-  authors = "__Alexander Demin__ and Joris van der Hoeven __(alphabetical order)__"
-  dest  = "preprint"
-  link = "https://polytechnique.hal.science/hal-04366390v1"
-  # pdf_link = "sparsefact.pdf"
+  name = "Exact hierarchical reductions of dynamical models via linear transformations"
+  authors = "__Alexander Demin__, Elizaveta Demitraki, and Gleb Pogudin __(alphabetical order)__"
+  dest  = "Communications in Nonlinear Science and Numerical Simulation, 2024"
+  just_link = "https://doi.org/10.1016/j.cnsns.2024.107816"
+  code_link = "https://github.com/x3042/ExactODEReduction.jl"
+  arxiv_link = "https://arxiv.org/abs/2301.11653"
 
 [[params.publications.paper]]
-  name = "Exact linear reductions of dynamical models"
-  authors = "__Alexander Demin__, Elizaveta Demitraki, and Gleb Pogudin __(alphabetical order)__"
-  dest  = "preprint"
-  # link = "https://mypaperishere.com"
-  code_link = "https://github.com/x3042/ExactODEReduction.jl"
+  name = "Factoring sparse polynomials fast"
+  authors = "__Alexander Demin__ and Joris van der Hoeven __(alphabetical order)__"
+  dest  = "preprint, 2023"
+  arxiv_link = "https://arxiv.org/abs/2312.17380"
+
+[[params.publications.paper]]
+  name = "Groebner.jl: A package for Gröbner bases computations in Julia"
+  authors = "__Alexander Demin__ and Shashi Gowda"
+  dest  = "preprint, 2023"
+  code_link = "https://github.com/sumiya11/Groebner.jl"
   arxiv_link = "https://arxiv.org/abs/2301.11653"
 
 [[params.publications.paper]]
