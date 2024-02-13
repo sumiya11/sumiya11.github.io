@@ -62,17 +62,23 @@ unsafe= true
   arxiv_link = "https://arxiv.org/abs/2301.11653"
 
 [[params.publications.paper]]
+  name = "Groebner.jl: A package for Gröbner bases computations in Julia"
+  authors = "Alexander Demin and Shashi Gowda"
+  dest  = "preprint, 2024"
+  code_link = "https://github.com/sumiya11/Groebner.jl"
+  arxiv_link = "https://arxiv.org/abs/2304.06935"
+
+[[params.publications.paper]]
+  name = "Reading Rational Univariate Representations on lexicographic Groebner bases"
+  authors = "Alexander Demin, Fabrice Rouillier, and Joao Ruiz (alphabetical order)"
+  dest  = "preprint, 2024"
+  arxiv_link = "https://arxiv.org/abs/2402.07141"
+
+[[params.publications.paper]]
   name = "Factoring sparse polynomials fast"
   authors = "Alexander Demin and Joris van der Hoeven (alphabetical order)"
   dest  = "preprint, 2023"
   arxiv_link = "https://arxiv.org/abs/2312.17380"
-
-[[params.publications.paper]]
-  name = "Groebner.jl: A package for Gröbner bases computations in Julia"
-  authors = "Alexander Demin and Shashi Gowda"
-  dest  = "preprint, 2023"
-  code_link = "https://github.com/sumiya11/Groebner.jl"
-  arxiv_link = "https://arxiv.org/abs/2301.11653"
 
 [[params.publications.paper]]
   name = "F5: A REDUCE Package for Signature-based Gröbner Basis Computation"
