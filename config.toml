@@ -45,9 +45,9 @@ unsafe= true
 [[params.introduction.paragraph]]
   text="""Hi, I am Alexander!"""
 [[params.introduction.paragraph]]
-  text="""I am a senior at HSE University, majoring in mathematics and computer science."""
-[[params.introduction.paragraph]]
-  text="""At the moment, I am working on a thesis on structural identifiability of dynamical models with Alejandro Villaverde. I also work with Chris Rackauckas and Gleb Pogudin on [StructuralIdentifiability.jl](https://github.com/SciML/StructuralIdentifiability.jl)."""
+  text="""I am an intern at Inria."""
+# [[params.introduction.paragraph]]
+#   text="""At the moment, I am working on a thesis on structural identifiability of dynamical models with Alejandro Villaverde. I also work with Chris Rackauckas and Gleb Pogudin on [StructuralIdentifiability.jl](https://github.com/SciML/StructuralIdentifiability.jl)."""
 [[params.introduction.paragraph]]
   text="""My publications can be found at [Google Scholar](https://scholar.google.com/citations?user=UDodLb4AAAAJ&hl=en)."""
 
