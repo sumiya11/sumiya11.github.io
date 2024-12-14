@@ -107,6 +107,13 @@ unsafe= true
   # blog_link = "https://ablogpost.com"
 
  [[params.presentations.presentation]]
+  name = "__Conference talk__, Model reparametrization with StructuralIdentifiability.jl"
+  description  = "JuliaCon, Eindhoven, 2024"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
+
+ [[params.presentations.presentation]]
   name = "__Invited talk__, Finding exact linear reductions of dynamical models"
   description  = "Ecole Polytechnique, The MAX Team seminar, France, 2023"
   # project_page = "https://myprojecthomepage.com"
