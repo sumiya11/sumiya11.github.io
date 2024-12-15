@@ -37,10 +37,10 @@ unsafe= true
   icon = "github"
   url = "https://github.com/sumiya11"
 
-[[params.social]]
-  name = "LinkedIn"
-  icon = "linkedin"
-  url = "https://www.linkedin.com/in/alexander-demin-399166221"
+# [[params.social]]
+#   name = "LinkedIn"
+#   icon = "linkedin"
+#   url = "https://www.linkedin.com/in/alexander-demin-399166221"
 
 [[params.introduction.paragraph]]
   text="""Hi, I am Alexander!"""
