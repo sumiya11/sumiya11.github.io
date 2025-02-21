@@ -59,15 +59,13 @@ unsafe= true
   just_link = "https://hal.science/hal-03781962"
   # pdf_link = "F5_Reduce_CASC22.pdf"
 
-[[params.publications_conference]]
+[[params.publications_preprint]]
 
-[[params.publications_conference.paper]]
+[[params.publications_preprint.paper]]
   name = "Reading Rational Univariate Representations on lexicographic Groebner bases"
   authors = "Alexander Demin, Fabrice Rouillier, and Joao Ruiz (alphabetical order)"
   dest  = "preprint, 2024"
   arxiv_link = "https://arxiv.org/abs/2402.07141"
-
-[[params.publications_preprint]]
 
 [[params.publications_preprint.paper]]
   name = "Groebner.jl: A package for Gröbner bases computations in Julia"
