@@ -43,7 +43,7 @@ unsafe= true
 [[params.publications_journal.paper]]
   name = "Factoring sparse polynomials fast"
   authors = "Alexander Demin and Joris van der Hoeven (alphabetical order)"
-  dest  = "preprint, 2023"
+  dest  = "accepted to Journal of Complexity, 2025"
   arxiv_link = "https://arxiv.org/abs/2312.17380"
 
 [[params.publications_journal.paper]]
