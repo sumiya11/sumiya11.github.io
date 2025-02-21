@@ -43,7 +43,7 @@ unsafe= true
 [[params.publications.paper]]
   name = "Exact hierarchical reductions of dynamical models via linear transformations"
   authors = "Alexander Demin, Elizaveta Demitraki, and Gleb Pogudin (alphabetical order)"
-  dest  = "Communications in Nonlinear Science and Numerical Simulation, 2024"
+  dest  = "Communications in Nonlinear Science and Numerical Simulation, **131** (2024) 107816"
   just_link = "https://doi.org/10.1016/j.cnsns.2024.107816"
   code_link = "https://github.com/x3042/ExactODEReduction.jl"
   arxiv_link = "https://arxiv.org/abs/2301.11653"
