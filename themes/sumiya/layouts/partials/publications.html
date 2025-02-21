@@ -1,15 +1,15 @@
 <div class="introduction">
-	{{ with .Site.Params.publications }}
-	<h4>Publications</h4>
+	{{ with .Site.Params.publications_journal }}
+	<h4>Journal Papers (Peer-Reviewed)</h4>
 
 	<ul>
-		{{- range $index, $publications := $.Site.Params.publications -}}
-		{{ range $elem_index, $publication := $publications.paper }}
+		{{- range $index, $publications_journal := $.Site.Params.publications_journal -}}
+		{{ range $elem_index, $publication := $publications_journal.paper }}
 		<li>
 			{{ if $publication.link }}
-			<a href="{{ $publication.link }}" class="publications"> {{ $publication.name }}, {{$publication.dest | markdownify }}</a>
+			<a href="{{ $publication.link }}" class="publications_journal"> {{ $publication.name }}, {{$publication.dest | markdownify }}</a>
 			{{ else }}
-			<p class="publications"> {{ $publication.name }}, {{$publication.dest | markdownify }} </p>
+			<p class="publications_journal"> {{ $publication.name }}, {{$publication.dest | markdownify }} </p>
 			{{ end }}
 
 			<span class="collaborators">
