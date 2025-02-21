@@ -48,26 +48,28 @@ unsafe= true
   code_link = "https://github.com/x3042/ExactODEReduction.jl"
   arxiv_link = "https://arxiv.org/abs/2301.11653"
 
-[[params.publications_journal.paper]]
+[[params.publications_conference]]
+
+[[params.publications_conference.paper]]
   name = "Groebner.jl: A package for Gröbner bases computations in Julia"
   authors = "Alexander Demin and Shashi Gowda"
   dest  = "preprint, 2024"
   code_link = "https://github.com/sumiya11/Groebner.jl"
   arxiv_link = "https://arxiv.org/abs/2304.06935"
 
-[[params.publications_journal.paper]]
+[[params.publications_conference.paper]]
   name = "Reading Rational Univariate Representations on lexicographic Groebner bases"
   authors = "Alexander Demin, Fabrice Rouillier, and Joao Ruiz (alphabetical order)"
   dest  = "preprint, 2024"
   arxiv_link = "https://arxiv.org/abs/2402.07141"
 
-[[params.publications_journal.paper]]
+[[params.publications_conference.paper]]
   name = "Factoring sparse polynomials fast"
   authors = "Alexander Demin and Joris van der Hoeven (alphabetical order)"
   dest  = "preprint, 2023"
   arxiv_link = "https://arxiv.org/abs/2312.17380"
 
-[[params.publications_journal.paper]]
+[[params.publications_conference.paper]]
   name = "F5: A REDUCE Package for Signature-based Gröbner Basis Computation"
   authors = "Alexander Demin, Hamid Rahkooy, and Thomas Sturm"
   dest  = "Computer Algebra in Scientific Computing 2022"
@@ -76,7 +78,7 @@ unsafe= true
   just_link = "https://hal.science/hal-03781962"
   # pdf_link = "F5_Reduce_CASC22.pdf"
 
-[[params.publications_journal.paper]]
+[[params.publications_conference.paper]]
   name = "A Semi-supervised Learning Method for the Search of Rare Processes in LHC Data"
   authors = "Hevjin Yarar, Alexander Demin, Tommaso Dorigo, Luca Quagliarella, and Andrey Ustyuzhanin"
   dest  = "Report 2.1 of INSIGHTS ITN to European Commission, 2022"

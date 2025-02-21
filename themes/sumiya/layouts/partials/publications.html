@@ -42,3 +42,48 @@
 	{{- end -}}
 	{{- end -}}
 </div>
+
+<div class="introduction">
+	{{ with .Site.Params.publications_conference }}
+	<h4>Conference Papers (Peer-Reviewed)</h4>
+
+	<ul>
+		{{- range $index, $publications_conference := $.Site.Params.publications_conference -}}
+		{{ range $elem_index, $publication := $publications_conference.paper }}
+		<li>
+			{{ if $publication.link }}
+			<a href="{{ $publication.link }}" class="publications_conference"> {{ $publication.name }}, {{$publication.dest | markdownify }}</a>
+			{{ else }}
+			<p class="publications_conference"> {{ $publication.name }}, {{$publication.dest | markdownify }} </p>
+			{{ end }}
+
+			<span class="collaborators">
+				{{ $publication.authors | markdownify }}
+			</span>
+
+			{{ if or ($publication.code_link) $publication.arxiv_link ($publication.pdf_link) ($publication.just_link) }}
+			<span class="code_blog">
+				{{ with $publication.code_link }}
+				[<a href="{{ $publication.code_link }}">code</a>]
+				{{ end }}
+
+				{{ with $publication.pdf_link }}
+				[<a href="{{ $publication.pdf_link }}">pdf</a>]
+				{{ end }}
+
+				{{ with $publication.arxiv_link }}
+				[<a href="{{ $publication.arxiv_link }}">arxiv</a>]
+				{{ end }}
+
+				{{ with $publication.just_link }}
+				[<a href="{{ $publication.just_link }}">doi</a>]
+				{{ end }}
+			</span>
+			{{ end }}
+
+		</li>
+		{{ end }}
+	</ul>
+	{{- end -}}
+	{{- end -}}
+</div>
