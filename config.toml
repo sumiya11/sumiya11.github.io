@@ -40,6 +40,12 @@ unsafe= true
 
 [[params.publications_journal]]
 
+[[params.publications_preprint.paper]]
+  name = "Factoring sparse polynomials fast"
+  authors = "Alexander Demin and Joris van der Hoeven (alphabetical order)"
+  dest  = "2025"
+  arxiv_link = "https://arxiv.org/abs/2312.17380"
+
 [[params.publications_journal.paper]]
   name = "Exact hierarchical reductions of dynamical models via linear transformations"
   authors = "Alexander Demin, Elizaveta Demitraki, and Gleb Pogudin (alphabetical order)"
@@ -73,12 +79,6 @@ unsafe= true
   dest  = "preprint, 2024"
   code_link = "https://github.com/sumiya11/Groebner.jl"
   arxiv_link = "https://arxiv.org/abs/2304.06935"
-
-[[params.publications_preprint.paper]]
-  name = "Factoring sparse polynomials fast"
-  authors = "Alexander Demin and Joris van der Hoeven (alphabetical order)"
-  dest  = "preprint, 2023"
-  arxiv_link = "https://arxiv.org/abs/2312.17380"
 
 [[params.publications_preprint.paper]]
   name = "A Semi-supervised Learning Method for the Search of Rare Processes in LHC Data"
