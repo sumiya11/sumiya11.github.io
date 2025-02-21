@@ -19,13 +19,7 @@ unsafe= true
 
 [[params.affilation]]
   name = "HSE University"
-  # position = "Bachelor student"
   contact = "asdemin_2@edu.hse.ru"
-
-# [[params.affilation]]
-#   name = "MyCoolStartup"
-#   position = "Co-Founder"
-#   contact = "hadi@mycoolstartup.ai"
 
 [[params.social]]
   name = "Google Scholar"
@@ -37,17 +31,10 @@ unsafe= true
   icon = "github"
   url = "https://github.com/sumiya11"
 
-# [[params.social]]
-#   name = "LinkedIn"
-#   icon = "linkedin"
-#   url = "https://www.linkedin.com/in/alexander-demin-399166221"
-
 [[params.introduction.paragraph]]
   text="""Hi, I am Alexander!"""
 [[params.introduction.paragraph]]
-  text="""I am an intern at Inria."""
-# [[params.introduction.paragraph]]
-#   text="""At the moment, I am working on a thesis on structural identifiability of dynamical models with Alejandro Villaverde. I also work with Chris Rackauckas and Gleb Pogudin on [StructuralIdentifiability.jl](https://github.com/SciML/StructuralIdentifiability.jl)."""
+  text="""I am an undergrad at HSE University in Moscow."""
 [[params.introduction.paragraph]]
   text="""My publications can be found at [Google Scholar](https://scholar.google.com/citations?user=UDodLb4AAAAJ&hl=en)."""
 
