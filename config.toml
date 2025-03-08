@@ -43,14 +43,14 @@ unsafe= true
 [[params.publications_journal.paper]]
   name = "Factoring sparse polynomials fast"
   authors = "Alexander Demin and Joris van der Hoeven (alphabetical order)"
-  dest  = "Journal of Complexity, **88** (2025) 101934"
+  dest  = "Journal of Complexity **88** (2025) 101934"
   arxiv_link = "https://arxiv.org/abs/2312.17380"
   just_link = "https://doi.org/10.1016/j.jco.2025.101934"
 
 [[params.publications_journal.paper]]
   name = "Exact hierarchical reductions of dynamical models via linear transformations"
   authors = "Alexander Demin, Elizaveta Demitraki, and Gleb Pogudin (alphabetical order)"
-  dest  = "Communications in Nonlinear Science and Numerical Simulation, **131** (2024) 107816"
+  dest  = "Communications in Nonlinear Science and Numerical Simulation **131** (2024) 107816"
   just_link = "https://doi.org/10.1016/j.cnsns.2024.107816"
   code_link = "https://github.com/x3042/ExactODEReduction.jl"
   arxiv_link = "https://arxiv.org/abs/2301.11653"
