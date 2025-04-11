@@ -6,6 +6,7 @@
 			{{- range $index, $key := .Site.Params.affilation -}}
 			<ul class="flat">
 				<li class="position">{{$key.name}}</li>
+				<li class="address">{{ $key.address}}</li>
 				<li class="email">{{ $key.contact}}</li>
 			</ul>
 			{{- end -}}
