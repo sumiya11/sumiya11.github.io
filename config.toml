@@ -19,9 +19,8 @@ unsafe= true
 
 [[params.affilation]]
   name = "HSE University"
-  address = """HSE University
-            Faculty of Computer Science
-            11 Pokrovsky blvd. 
+  address = """Faculty of Computer Science\n
+            11 Pokrovsky blvd.\n
             109028 Moscow, Russia"""
   contact = "asdemin_2@edu.hse.ru"
 
