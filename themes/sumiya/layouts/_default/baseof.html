@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{/* Bundle and minimise CSS resources */}}
+        {{- $main := resources.Get "css/main.css" -}}
+        {{- $norm := resources.Get "css/normalize.css" -}}
+        <link rel="stylesheet" href="{{ $main.Permalink }}" integrity="{{ $main.Data.Integrity }}" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ $norm.Permalink }}" integrity="{{ $norm.Data.Integrity }}" crossorigin="anonymous">
+    </head>
+    {{ partial "header.html" . }}
+    <body>
+        <div id="content">
+        {{- block "main" . }}{{- end -}}
+        </div>
+        {{ partial "footer.html" . }}
+        {{ $js := resources.Get "js/feather.min.js" }}
+        <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous"></script>
+    </body>
+</html>

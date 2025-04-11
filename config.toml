@@ -1,0 +1,144 @@
+baseURL = "https://sumiya11.github.io/"
+languageCode = "en-us"
+title = "Alexander Demin"
+theme = "sumiya"
+publishDir = "public"
+googleAnalytics = "G-40L5J69HWL"
+# timeout=3000
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[params]
+  # subtitle= "Bachelor student"
+  # interests="Deep Reinforcement Learning, Machine Learning "
+  # cv_name= "mycv.pdf"
+  # blog="https://sumiya11.github.io/blog"
+
+  custom_css = ["/css/main.css", "/css/normalize.css"]
+
+[[params.affilation]]
+  name = "HSE University"
+  contact = "asdemin_2@edu.hse.ru"
+
+[[params.social]]
+  name = "Google Scholar"
+  icon = "book"
+  url = "https://scholar.google.com/citations?user=UDodLb4AAAAJ&hl=en"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/sumiya11"
+
+[[params.introduction.paragraph]]
+  text="""Hi, I am Alexander!"""
+[[params.introduction.paragraph]]
+  text="""I am an undergrad at HSE University in Moscow."""
+[[params.introduction.paragraph]]
+  text="""My publications can be found at [Google Scholar](https://scholar.google.com/citations?user=UDodLb4AAAAJ&hl=en)."""
+
+[[params.publications_journal]]
+
+[[params.publications_journal.paper]]
+  name = "Factoring sparse polynomials fast"
+  authors = "Alexander Demin and Joris van der Hoeven (alphabetical order)"
+  dest  = "Journal of Complexity **88** (2025) 101934"
+  arxiv_link = "https://arxiv.org/abs/2312.17380"
+  just_link = "https://doi.org/10.1016/j.jco.2025.101934"
+
+[[params.publications_journal.paper]]
+  name = "Exact hierarchical reductions of dynamical models via linear transformations"
+  authors = "Alexander Demin, Elizaveta Demitraki, and Gleb Pogudin (alphabetical order)"
+  dest  = "Communications in Nonlinear Science and Numerical Simulation **131** (2024) 107816"
+  just_link = "https://doi.org/10.1016/j.cnsns.2024.107816"
+  code_link = "https://github.com/x3042/ExactODEReduction.jl"
+  arxiv_link = "https://arxiv.org/abs/2301.11653"
+
+[[params.publications_conference]]
+
+[[params.publications_conference.paper]]
+  name = "F5: A REDUCE Package for Signature-based Gröbner Basis Computation"
+  authors = "Alexander Demin, Hamid Rahkooy, and Thomas Sturm"
+  dest  = "Computer Algebra in Scientific Computing 2022"
+  # link = "https://mypaperishere.com"
+  # code_link = "https://thecoderepo.com"
+  just_link = "https://hal.science/hal-03781962"
+  # pdf_link = "F5_Reduce_CASC22.pdf"
+
+[[params.publications_preprint]]
+
+[[params.publications_preprint.paper]]
+  name = "Reading Rational Univariate Representations on lexicographic Groebner bases"
+  authors = "Alexander Demin, Fabrice Rouillier, and Joao Ruiz (alphabetical order)"
+  dest  = "preprint, 2024"
+  arxiv_link = "https://arxiv.org/abs/2402.07141"
+
+[[params.publications_preprint.paper]]
+  name = "Groebner.jl: A package for Gröbner bases computations in Julia"
+  authors = "Alexander Demin and Shashi Gowda"
+  dest  = "preprint, 2024"
+  code_link = "https://github.com/sumiya11/Groebner.jl"
+  arxiv_link = "https://arxiv.org/abs/2304.06935"
+
+[[params.publications_preprint.paper]]
+  name = "A Semi-supervised Learning Method for the Search of Rare Processes in LHC Data"
+  authors = "Hevjin Yarar, Alexander Demin, Tommaso Dorigo, Luca Quagliarella, and Andrey Ustyuzhanin"
+  dest  = "Report 2.1 of INSIGHTS ITN to European Commission, 2022"
+  # link = "mycv.pdf"
+  # code_link = "mycv.pdf"
+  pdf_link = "ranbox_report.pdf"
+
+[[params.presentations]]
+
+ [[params.presentations.presentation]]
+  name = "__Invited talk__, Computing globally identifiable parametrizations of dynamical models"
+  description  = "Workshop on Differential Algebra and Modeling, Raleigh, USA, 2024"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
+
+ [[params.presentations.presentation]]
+  name = "__Conference talk__, Model reparametrization with StructuralIdentifiability.jl"
+  description  = "JuliaCon, Eindhoven, 2024"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
+
+ [[params.presentations.presentation]]
+  name = "__Invited talk__, Finding exact linear reductions of dynamical models"
+  description  = "Ecole Polytechnique, The MAX Team seminar, France, 2023"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
+
+  [[params.presentations.presentation]]
+  name = "__Poster__, Automatic Optimization of Derivatives with Polyhedral Compiler"
+  description  = "MODE Workshop on Differentiable Programming for Experiment Design, Greece, 2022"
+  award = "Award-winning poster"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
+
+  [[params.presentations.presentation]]
+  name = "__Conference talk__, F5: A REDUCE Package for Signature-based Gröbner Basis Computation"
+  description  = "Computer Algebra in Scientific Computing, Turkey, 2022 (online)"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
+
+  [[params.presentations.presentation]]
+  name = "__Invited talk__, Signature-based Algorithms for Computing Groebner Bases"
+  description  = "Verification of Distributed Systems Group Seminar, France, 2022 (online)"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
+
+    [[params.presentations.presentation]]
+  name = "__Conference talk__, On some applications of Groebner bases"
+  description  = "Scientific Student Conference, HSE University, Russia, 2022"
+  award = "Best student talk"
+  # project_page = "https://myprojecthomepage.com"
+  # code_link = "https://coderepo.com"
+  # blog_link = "https://ablogpost.com"
+
