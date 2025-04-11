@@ -172,6 +172,10 @@ ul {
   display: inline;
 }
 
+.site-affilation li {
+  display: inline-block;
+}
+
 .highlight pre {
   margin-bottom: 0;
   margin-top: 0;
