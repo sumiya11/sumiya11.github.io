@@ -263,6 +263,30 @@ ul {
   /* font-weight: bolder; */
 }
 
+.header .site-affilation .department {
+  /* color: #a00; */
+  /* font-size: 14px; */
+  /* display: block; */
+  font-family: Ubuntu;
+  /* font-weight: bolder; */
+}
+
+.header .site-affilation .address1 {
+  /* color: #a00; */
+  /* font-size: 14px; */
+  /* display: block; */
+  font-family: Ubuntu;
+  /* font-weight: bolder; */
+}
+
+.header .site-affilation .address2 {
+  /* color: #a00; */
+  /* font-size: 14px; */
+  /* display: block; */
+  font-family: Ubuntu;
+  /* font-weight: bolder; */
+}
+
 .header .site-affilation nav {
   margin: 0;
   padding: 0;
