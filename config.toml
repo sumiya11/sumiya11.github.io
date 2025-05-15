@@ -41,6 +41,12 @@ unsafe= true
 [[params.publications_journal]]
 
 [[params.publications_journal.paper]]
+  name = "Progress in end-to-end optimization of fundamental physics experimental apparata with differentiable programming"
+  authors = "Max Aehle, Lorenzo Arsini, and 28 others, including Alexander Demin"
+  dest  = "Reviews in Physics **13** (2025) 100120"
+  just_link = "https://doi.org/10.1016/j.revip.2025.100120"
+
+[[params.publications_journal.paper]]
   name = "Factoring sparse polynomials fast"
   authors = "Alexander Demin and Joris van der Hoeven (alphabetical order)"
   dest  = "Journal of Complexity **88** (2025) 101934"
