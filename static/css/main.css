@@ -828,11 +828,11 @@ body.home-page {
 
   .home-page .header {
     position: static;
-    display: grid;
-    grid-template-columns: 112px minmax(0, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     column-gap: 16px;
     row-gap: 12px;
-    align-items: center;
   }
 
   .home-page .home-content {
@@ -840,6 +840,8 @@ body.home-page {
   }
 
   .home-page .profile-home-link {
+    flex: 0 0 112px;
+    width: 112px;
     max-width: none;
   }
 
@@ -849,12 +851,14 @@ body.home-page {
   }
 
   .home-page .header .site-title {
+    flex: 1 1 180px;
+    min-width: 0;
     margin: 0;
     font-size: 1.55rem;
   }
 
   .home-page .profile-links {
-    grid-column: 1 / -1;
+    flex: 1 0 100%;
     padding-top: 12px;
   }
 
@@ -879,9 +883,13 @@ body.home-page {
   }
 
   .home-page .header {
-    grid-template-columns: 96px minmax(0, 1fr);
     column-gap: 14px;
     row-gap: 10px;
+  }
+
+  .home-page .profile-home-link {
+    flex-basis: 88px;
+    width: 88px;
   }
 
   .home-page .header .site-title {
