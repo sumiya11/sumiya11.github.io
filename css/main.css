@@ -808,14 +808,16 @@ body.home-page {
   }
 
   .home-page .container.wrapper {
+    margin-top: 18px;
     grid-template-columns: 1fr;
-    gap: 28px;
+    gap: 24px;
   }
 
   .home-page .page-topbar-inner {
     grid-template-columns: 1fr;
-    gap: 12px;
-    padding-top: 14px;
+    gap: 10px;
+    padding: 12px 0 10px;
+    align-items: start;
   }
 
   .home-page .page-topbar-title,
@@ -826,10 +828,43 @@ body.home-page {
 
   .home-page .header {
     position: static;
+    display: grid;
+    grid-template-columns: 112px minmax(0, 1fr);
+    column-gap: 16px;
+    row-gap: 12px;
+    align-items: center;
   }
 
   .home-page .home-content {
     grid-column: 1;
+  }
+
+  .home-page .profile-home-link {
+    max-width: none;
+  }
+
+  .home-page .header .profile_image {
+    width: 100%;
+    margin: 0;
+  }
+
+  .home-page .header .site-title {
+    margin: 0;
+    font-size: 1.55rem;
+  }
+
+  .home-page .profile-links {
+    grid-column: 1 / -1;
+    padding-top: 12px;
+  }
+
+  .home-page .home-section {
+    margin-bottom: 34px;
+  }
+
+  .home-page .home-section > h2 {
+    margin-bottom: 14px;
+    font-size: 1.7rem;
   }
 }
 
@@ -838,11 +873,38 @@ body.home-page {
     padding: 0 14px;
   }
 
+  .home-page .page-topbar-title {
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+  }
+
+  .home-page .header {
+    grid-template-columns: 96px minmax(0, 1fr);
+    column-gap: 14px;
+    row-gap: 10px;
+  }
+
   .home-page .header .site-title {
-    font-size: 1.85rem;
+    font-size: 1.35rem;
   }
 
   .home-page .section-navbar ul.flat {
-    gap: 16px;
+    gap: 12px 14px;
+  }
+
+  .home-page .section-navbar a {
+    font-size: 0.96rem;
+  }
+
+  .home-page .profile-links {
+    padding-top: 10px;
+  }
+
+  .home-page .profile-links a {
+    gap: 6px;
+  }
+
+  .home-page .profile-links .contact-line {
+    line-height: 1.12;
   }
 }
