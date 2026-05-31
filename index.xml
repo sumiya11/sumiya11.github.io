@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Alexander Demin</title>
-    <link>https://sumiya11.github.io/</link>
-    <description>Recent content on Alexander Demin</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://sumiya11.github.io/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+	<channel>
+		<title>About on Alexander Demin</title>
+		<link>https://sumiya11.github.io/</link>
+		<description>Recent content in About on Alexander Demin</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://sumiya11.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Publications</title>
+				<link>https://sumiya11.github.io/publications/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://sumiya11.github.io/publications/</guid>
+				<description>&lt;h2 id=&#34;journal-papers-peer-reviewed&#34;&gt;Journal Papers (Peer-Reviewed)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Factoring sparse polynomials fast. &lt;em&gt;Journal of Complexity&lt;/em&gt; &lt;strong&gt;88&lt;/strong&gt; (2025) 101934.&lt;br&gt;&#xA;Alexander Demin and Joris van der Hoeven (alphabetical order).&lt;br&gt;&#xA;&lt;a href=&#34;https://arxiv.org/abs/2312.17380&#34;&gt;arXiv&lt;/a&gt; · &lt;a href=&#34;https://doi.org/10.1016/j.jco.2025.101934&#34;&gt;DOI&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Progress in end-to-end optimization of fundamental physics experimental apparata with differentiable programming. &lt;em&gt;Reviews in Physics&lt;/em&gt; &lt;strong&gt;13&lt;/strong&gt; (2025) 100120.&lt;br&gt;&#xA;Max Aehle, Lorenzo Arsini, and 28 others, including Alexander Demin.&lt;br&gt;&#xA;&lt;a href=&#34;https://doi.org/10.1016/j.revip.2025.100120&#34;&gt;DOI&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Exact hierarchical reductions of dynamical models via linear transformations. &lt;em&gt;Communications in Nonlinear Science and Numerical Simulation&lt;/em&gt; &lt;strong&gt;131&lt;/strong&gt; (2024) 107816.&lt;br&gt;&#xA;Alexander Demin, Elizaveta Demitraki, and Gleb Pogudin (alphabetical order).&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/x3042/ExactODEReduction.jl&#34;&gt;Code&lt;/a&gt; · &lt;a href=&#34;https://arxiv.org/abs/2301.11653&#34;&gt;arXiv&lt;/a&gt; · &lt;a href=&#34;https://doi.org/10.1016/j.cnsns.2024.107816&#34;&gt;DOI&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Talks</title>
+				<link>https://sumiya11.github.io/talks/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://sumiya11.github.io/talks/</guid>
+				<description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Conference poster&lt;/strong&gt;, Computing identifiable functions and simplifying ODE models. DART 2026, Conference on Differential Algebra and Related Topics, France, 2026.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Conference poster&lt;/strong&gt;, Computing identifiable functions and simplifying ODE models. Future Algorithms conference, 2026. &lt;span class=&#34;award-note&#34;&gt;Best poster award&lt;/span&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Invited talk&lt;/strong&gt;, Simple generators of rational function fields and application to structural identifiability. Kolchin Seminar in Differential Algebra, Online, 2026.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Seminar talk&lt;/strong&gt;, Computing globally identifiable parametrizations of dynamical models. Seminar at Max Planck Institute of Molecular Cell Biology and Genetics, Germany, 2025.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
