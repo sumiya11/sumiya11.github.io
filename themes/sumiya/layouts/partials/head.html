@@ -1,45 +1,42 @@
 <div class="header">
-	<img src={{ "me2.jpg" | absURL }} class="profile_image">
-	<h1 class="site-title">{{ .Site.Title }}</h1>
-	<div class="site-affilation">
-		<span class="affilation">
-			{{- range $index, $key := .Site.Params.affilation -}}
+	<a href={{ "/" | relURL }} class="profile-home-link" aria-label="Go to About page">
+		<img src={{ "images/fumo.png" | relURL }} alt="Alexander Demin" class="profile_image">
+	</a>
+	<h1 class="site-title"><a href={{ "/" | relURL }} class="home-title-link">{{ .Site.Title }}</a></h1>
+	{{- $contact := .Site.Params.contact -}}
+	{{- if or $contact.email $contact.address_lines (isset .Site.Params "social") (.Site.Params.blog) (.Site.Params.cv_name) -}}
+	<div class="profile-links">
+		<nav class="nav social" aria-label="Contact information">
 			<ul class="flat">
-				<li class="position">{{$key.name}}</li>
-				<li class="email">{{ $key.contact}}</li>
-			</ul>
-			{{- end -}}
-		</span>
-		<!--
-      {{- if isset .Site.Params "subtitle" -}}
-      <h2>{{ .Site.Params.Subtitle | markdownify }}</h2>
-      {{- end -}}
-    -->
-
-		<nav class="nav social">
-			<ul class="flat">
+				{{- with $contact.email -}}
+				<li>
+					<a class="email" href="mailto:{{ . }}" title="Email">
+						<i data-feather="mail"></i>
+						<span>{{ . }}</span>
+					</a>
+				</li>
+				{{- end -}}
 				{{- range $index, $key := .Site.Params.Social -}}
-				<a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
+				<li>
+					<a href="{{ $key.url }}" title="{{ $key.name }}">
+						<i data-feather="{{ $key.icon }}"></i>
+						<span>{{ $key.name }}</span>
+					</a>
+				</li>
 				{{- end -}}
-				{{ if or (.Site.Params.blog) (.Site.Params.cv_name) }}
-				|
 				{{- with .Site.Params.blog -}}
-				<a href="{{ . }}" class="blog_cv">[blog]</a>
+				<li><a href="{{ . }}"><span>Blog</span></a></li>
 				{{- end -}}
-
-				{{ with .Site.Params.cv_name }}
-				<a href="{{ . }}" class="blog_cv">[cv]</a>
-				{{ end }}
-				{{ end }}
+				{{- with .Site.Params.cv_name -}}
+				<li><a href="{{ . }}"><span>CV</span></a></li>
+				{{- end -}}
+				{{- range $contact.address_lines -}}
+				<li class="contact-line">{{ . }}</li>
+				{{- end -}}
 			</ul>
 		</nav>
 	</div>
 
-	<nav class="nav">
-		<ul class="flat">
-			{{ range .Site.Menus.main }}
-			<li><a href="{{ .URL }}">{{ .Name }}</a></li>
-			{{ end }}
-		</ul>
-	</nav>
+	{{- end -}}
+
 </div>

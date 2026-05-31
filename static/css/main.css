@@ -24,6 +24,11 @@ textarea {
   color: #222;
 }
 
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -435,5 +440,409 @@ ul {
 @media (max-width: 480px) {
   body {
     font-size: 14px;
+  }
+}
+
+body.home-page {
+  --home-sidebar-width: 300px;
+  --home-column-gap: 40px;
+  --home-topbar-height: 63px;
+  padding: 0 24px;
+}
+
+.home-page .container.wrapper {
+  max-width: 1080px;
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: var(--home-sidebar-width) minmax(0, 1fr);
+  gap: 0 var(--home-column-gap);
+  align-items: start;
+}
+
+.home-page .page-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: #fff;
+}
+
+.home-page .page-topbar-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 18px 0 14px;
+  display: grid;
+  grid-template-columns: var(--home-sidebar-width) minmax(0, 1fr);
+  gap: 0 var(--home-column-gap);
+  align-items: end;
+  border-bottom: 1px solid #ececec;
+}
+
+.home-page .page-topbar-title {
+  grid-column: 1;
+  font-family: "Ubuntu Mono";
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.home-page .page-topbar-title a,
+.home-page .page-topbar-title a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-page .header {
+  grid-column: 1;
+  margin-bottom: 0;
+  position: sticky;
+  top: calc(var(--home-topbar-height) + 24px);
+}
+
+.home-page .home-content,
+.home-page .home-main {
+  min-width: 0;
+}
+
+.home-page .home-content {
+  grid-column: 2;
+  align-self: start;
+}
+
+.home-page .header .profile_image {
+  display: block;
+  width: 120%;
+  max-width: none;
+  height: auto;
+  margin: 0 0 28px -10%;
+  border-radius: 0;
+}
+
+.home-page .profile-home-link {
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.home-page .header .site-title {
+  margin: 0 0 1px;
+  font-size: 1.75rem;
+  line-height: 1.15;
+}
+
+.home-page .home-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-page .home-title-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-page .header .site-affilation {
+  display: block;
+}
+
+.home-page .header .site-affilation h6 {
+  margin: 0 0 10px;
+  font-family: "Ubuntu Mono";
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.home-page .header .affilation {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.home-page .header .position {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: #330;
+}
+
+.home-page .header .site-affilation .email {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.home-page .profile-links {
+  margin-top: 0;
+  padding-top: 4px;
+  border-top: 1px solid #ececec;
+}
+
+.home-page .profile-links h6 {
+  margin: 0 0 10px;
+  font-family: "Ubuntu Mono";
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.home-page .profile-links ul.flat {
+  padding: 0;
+}
+
+.home-page .profile-links ul.flat li {
+  display: block;
+  margin: 0 0 2px;
+  text-transform: none;
+}
+
+.home-page .profile-links ul.flat li.contact-line {
+  margin-bottom: 0;
+}
+
+.home-page .profile-links ul.flat li:not(.contact-line) + li.contact-line {
+  margin-top: 20px;
+}
+
+.home-page .profile-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-page .profile-links .email {
+  margin-top: 0;
+}
+
+.home-page .profile-links a span {
+  display: inline;
+}
+
+.home-page .profile-links .contact-line {
+  margin-left: 0;
+  padding-left: 0;
+  line-height: 1.08;
+  color: #330;
+}
+
+.home-page .profile-links svg {
+  width: 15px;
+  height: 15px;
+}
+
+.home-page .section-navbar {
+  margin: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.home-page .section-navbar ul.flat {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  padding: 0;
+}
+
+.home-page .section-navbar ul.flat li {
+  display: block;
+  margin: 0;
+}
+
+.home-page .section-navbar a {
+  display: inline-block;
+  padding-bottom: 4px;
+  color: #555;
+  text-decoration: none;
+}
+
+.home-page .page-topbar .section-navbar {
+  grid-column: 2;
+}
+
+.home-page .section-navbar a:hover {
+  color: #a00;
+  text-decoration: none;
+}
+
+.home-page .section-navbar a.is-active {
+  color: #a00;
+  border-bottom: 2px solid #a00;
+  text-decoration: none;
+}
+
+.home-page .home-section {
+  margin-bottom: 42px;
+}
+
+.home-page .home-section:last-child {
+  margin-bottom: 0;
+}
+
+.home-page .home-section > h2 {
+  margin: 0 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ececec;
+  font-size: 2rem;
+}
+
+.home-page .page-copy h2 {
+  margin: 28px 0 12px;
+  padding-bottom: 0;
+  border-bottom: none;
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+.home-page .page-copy h3 {
+  margin: 24px 0 10px;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.home-page .home-section h3 {
+  margin: 26px 0 14px;
+  color: #330;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.home-page .introduction p {
+  margin: 0 0 14px;
+}
+
+.home-page .page-copy > :first-child {
+  margin-top: 0;
+}
+
+.home-page .page-copy > :last-child {
+  margin-bottom: 0;
+}
+
+.home-page .page-copy ul {
+  list-style: disc outside;
+  padding-left: 22px;
+}
+
+.home-page .page-copy li {
+  margin-bottom: 12px;
+}
+
+.home-page .page-copy .award-note {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid #d9a3a3;
+  border-radius: 999px;
+  background: #f8e9e9;
+  color: #a00;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.home-page .home-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-page .home-list > li {
+  margin-bottom: 0;
+  padding: 14px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.home-page .home-list > li:last-child {
+  border-bottom: none;
+}
+
+.home-page .link-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.home-page .link-list li {
+  margin-bottom: 10px;
+}
+
+.home-page .publication-group + .publication-group {
+  margin-top: 24px;
+}
+
+.home-page .project,
+.home-page .publications_journal,
+.home-page .publications_conference,
+.home-page .publications_preprint,
+.home-page .presentations {
+  display: block;
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.home-page .home-section ul li p {
+  display: block;
+  margin: 0;
+}
+
+.home-page .collaborators,
+.home-page .project_description {
+  margin: 6px 0 0;
+}
+
+.home-page .code_blog {
+  display: block;
+  margin: 8px 0 0;
+}
+
+.home-page .footer {
+  max-width: 1080px;
+  margin: 30px auto 0;
+}
+
+@media (max-width: 780px) {
+  body.home-page {
+    padding: 0 18px;
+    --home-topbar-height: 72px;
+  }
+
+  .home-page .container.wrapper {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .home-page .page-topbar-inner {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding-top: 14px;
+  }
+
+  .home-page .page-topbar-title,
+  .home-page .page-topbar .section-navbar,
+  .home-page .home-content {
+    grid-column: 1;
+  }
+
+  .home-page .header {
+    position: static;
+  }
+
+  .home-page .home-content {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  body.home-page {
+    padding: 0 14px;
+  }
+
+  .home-page .header .site-title {
+    font-size: 1.85rem;
+  }
+
+  .home-page .section-navbar ul.flat {
+    gap: 16px;
   }
 }

@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
 	{{ partial "header.html" . }}
-	<body>
+	<body class="home-page">
+		{{ partial "topbar.html" . }}
 		<div class="container wrapper">
 			{{ partial "head.html" . }}
-			{{ partial "introduction.html" . }}
-			{{ partial "projects.html" . }}
-			{{ partial "publications.html" . }}
-			{{ partial "presentations.html" . }}
-		</div>
+			<div class="home-content">
+				<main class="home-main" aria-label="Main content">
+					<section class="home-section page-section">
+						<h2>About</h2>
+						{{- $aboutContent := .Content -}}
+						{{- if and (not $aboutContent) .RawContent -}}
+							{{- $aboutContent = .RenderString .RawContent -}}
+						{{- end -}}
+						<div class="page-copy">
+							{{- if $aboutContent -}}
+								{{ $aboutContent }}
+							{{- else -}}
+								{{- range .Site.Params.Introduction.paragraph -}}
+								<p>{{ .text | markdownify }}</p>
+								{{- end -}}
+							{{- end -}}
+						</div>
+					</section>
+				</main>
+			</div>
 		</div>
 		{{ partial "footer.html" . }}
 	</body>

@@ -15,11 +15,15 @@ unsafe= true
   # cv_name= "mycv.pdf"
   # blog="https://sumiya11.github.io/blog"
 
-  custom_css = ["/css/main.css", "/css/normalize.css"]
-
-[[params.affilation]]
-  name = "HSE University"
-  contact = "asdemin_2@edu.hse.ru"
+[params.contact]
+  email = "asdemin_2@edu.hse.ru"
+  address_lines = [
+    "CNRS, LIX (UMR 7161)",
+    "Campus de l'École polytechnique",
+    "1, rue Honoré d'Estienne d'Orves",
+    "Bâtiment Alan Turing, CS35003",
+    "91120 Palaiseau, France",
+  ]
 
 [[params.social]]
   name = "Google Scholar"

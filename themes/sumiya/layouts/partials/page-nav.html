@@ -1,0 +1,7 @@
+<nav class="nav section-links section-navbar" aria-label="Section navigation">
+	<ul class="flat">
+		<li><a href={{ "/" | relURL }} class="{{ if .IsHome }}is-active{{ end }}">About</a></li>
+		<li><a href={{ "/publications/" | relURL }} class="{{ if eq .RelPermalink "/publications/" }}is-active{{ end }}">Publications</a></li>
+		<li><a href={{ "/talks/" | relURL }} class="{{ if eq .RelPermalink "/talks/" }}is-active{{ end }}">Talks</a></li>
+	</ul>
+</nav>
