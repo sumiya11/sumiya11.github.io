@@ -16,7 +16,7 @@ unsafe= true
   # blog="https://sumiya11.github.io/blog"
 
 [params.contact]
-  email = "alexander.demin@lix.polytechnique.fr"
+  email = "demin@lix.polytechnique.fr"
   address_lines = [
     "CNRS, LIX (UMR 7161)",
     "Campus de l'École polytechnique",
