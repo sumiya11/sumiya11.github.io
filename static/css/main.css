@@ -803,63 +803,66 @@ body.home-page {
 
 @media (max-width: 780px) {
   body.home-page {
-    padding: 0 18px;
-    --home-topbar-height: 72px;
+    --home-sidebar-width: 132px;
+    --home-column-gap: 16px;
+    padding: 0 16px;
   }
 
   .home-page .container.wrapper {
     margin-top: 18px;
-    grid-template-columns: 1fr;
-    gap: 24px;
+    grid-template-columns: var(--home-sidebar-width) minmax(0, 1fr);
+    gap: 0 var(--home-column-gap);
   }
 
   .home-page .page-topbar-inner {
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-columns: var(--home-sidebar-width) minmax(0, 1fr);
+    gap: 0 var(--home-column-gap);
     padding: 12px 0 10px;
-    align-items: start;
+    align-items: end;
   }
 
-  .home-page .page-topbar-title,
-  .home-page .page-topbar .section-navbar,
-  .home-page .home-content {
-    grid-column: 1;
+  .home-page .page-topbar-title {
+    font-size: 0.76rem;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
   }
 
   .home-page .header {
     position: static;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    column-gap: 16px;
-    row-gap: 12px;
-  }
-
-  .home-page .home-content {
-    grid-column: 1;
+    display: block;
   }
 
   .home-page .profile-home-link {
-    flex: 0 0 112px;
-    width: 112px;
+    display: block;
+    width: auto;
     max-width: none;
   }
 
   .home-page .header .profile_image {
     width: 100%;
-    margin: 0;
+    margin: 0 0 14px;
   }
 
   .home-page .header .site-title {
-    flex: 1 1 180px;
-    min-width: 0;
-    margin: 0;
-    font-size: 1.55rem;
+    margin: 0 0 10px;
+    font-size: 1.2rem;
   }
 
   .home-page .profile-links {
-    flex: 1 0 100%;
-    padding-top: 12px;
+    padding-top: 10px;
+  }
+
+  .home-page .profile-links a {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .home-page .profile-links a span,
+  .home-page .profile-links .contact-line {
+    min-width: 0;
+    overflow-wrap: anywhere;
   }
 
   .home-page .home-section {
@@ -868,51 +871,49 @@ body.home-page {
 
   .home-page .home-section > h2 {
     margin-bottom: 14px;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 }
 
 @media (max-width: 480px) {
   body.home-page {
-    padding: 0 14px;
+    --home-sidebar-width: 108px;
+    --home-column-gap: 12px;
+    padding: 0 12px;
   }
 
   .home-page .page-topbar-title {
-    font-size: 0.78rem;
-    letter-spacing: 0.06em;
-  }
-
-  .home-page .header {
-    column-gap: 14px;
-    row-gap: 10px;
-  }
-
-  .home-page .profile-home-link {
-    flex-basis: 88px;
-    width: 88px;
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
   }
 
   .home-page .header .site-title {
-    font-size: 1.35rem;
+    font-size: 1.02rem;
   }
 
   .home-page .section-navbar ul.flat {
-    gap: 12px 14px;
+    gap: 8px 10px;
   }
 
   .home-page .section-navbar a {
-    font-size: 0.96rem;
+    font-size: 0.9rem;
   }
 
   .home-page .profile-links {
-    padding-top: 10px;
+    padding-top: 8px;
   }
 
-  .home-page .profile-links a {
-    gap: 6px;
+  .home-page .profile-links,
+  .home-page .page-copy {
+    font-size: 0.92rem;
+  }
+
+  .home-page .profile-links svg {
+    width: 13px;
+    height: 13px;
   }
 
   .home-page .profile-links .contact-line {
-    line-height: 1.12;
+    line-height: 1.1;
   }
 }
