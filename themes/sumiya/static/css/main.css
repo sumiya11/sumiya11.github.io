@@ -197,6 +197,10 @@ ul {
   /* padding-bottom: 20px; */
 }
 
+.home-content {
+  margin-left: 24px;
+}
+
 .header .profile_image {
   display: block;
   margin-left: auto;
