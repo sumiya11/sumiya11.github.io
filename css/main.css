@@ -444,14 +444,14 @@ ul {
 }
 
 body.home-page {
-  --home-sidebar-width: 230px;
-  --home-column-gap: 34px;
+  --home-sidebar-width: 255px;
+  --home-column-gap: 32px;
   --home-topbar-height: 57px;
   padding: 0 28px;
 }
 
 .home-page .container.wrapper {
-  max-width: 1040px;
+  max-width: 1060px;
   margin-top: 20px;
   display: grid;
   grid-template-columns: var(--home-sidebar-width) minmax(0, 1fr);
@@ -467,7 +467,7 @@ body.home-page {
 }
 
 .home-page .page-topbar-inner {
-  max-width: 1040px;
+  max-width: 1060px;
   margin: 0 auto;
   padding: 15px 0 12px;
   display: grid;
@@ -625,7 +625,9 @@ body.home-page {
 .home-page .profile-links .contact-line {
   margin-left: 0;
   padding-left: 0;
-  line-height: 1.08;
+  font-size: 0.86rem;
+  line-height: 1.25;
+  white-space: nowrap;
   color: #330;
 }
 
@@ -813,7 +815,7 @@ body.home-page {
 }
 
 .home-page .footer {
-  max-width: 1040px;
+  max-width: 1060px;
   margin: 30px auto 0;
 }
 
@@ -881,6 +883,7 @@ body.home-page {
   .home-page .profile-links .contact-line {
     min-width: 0;
     overflow-wrap: anywhere;
+    white-space: normal;
   }
 
   .home-page .home-section {
