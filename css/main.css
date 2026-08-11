@@ -1,10 +1,12 @@
-/* Ubuntu, Ubuntu */
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+/* Site typography */
+
+:root {
+  --accent-color: #0166cc;
+}
 
 body {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
+  font-family: "Ubuntu Sans", sans-serif;
+  font-weight: 350;
   color: #333;
   line-height: 1.5;
   font-size: 16px;
@@ -12,7 +14,7 @@ body {
 
 a,
 a:hover {
-  color: #a00;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -72,7 +74,7 @@ blockquote {
   font-size: 1.4rem;
   font-family: Georgia, bitstream charter, serif;
   border-left: 3px solid;
-  border-color: #a00;
+  border-color: var(--accent-color);
   padding-left: 20px;
 }
 
@@ -86,7 +88,7 @@ span {
 
 a,
 a:hover {
-  color: #a00;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -100,9 +102,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Ubuntu, raleway, sans-serif;
+  font-family: "Ubuntu Sans", sans-serif;
   line-height: 1.2;
-  color: #330;
+  color: #333;
   font-weight: 100;
   margin-bottom: 15px;
   margin-top: 20px;
@@ -125,12 +127,12 @@ h4 {
 }
 
 h5 {
-  font-weight: 300;
+  font-weight: 350;
   font-size: 1rem;
 }
 
 h6 {
-  font-weight: 300;
+  font-weight: 350;
   font-size: 0.9rem;
 }
 
@@ -253,18 +255,18 @@ ul {
 }
 
 .header .site-affilation .email {
-  /* color: #a00; */
+  /* color: var(--accent-color); */
   font-size: 14px;
   display: block;
-  font-family: "Ubuntu Mono";
+  font-family: "Ubuntu Sans";
   font-weight: bolder;
 }
 
 .header .site-affilation .position {
-  /* color: #a00; */
+  /* color: var(--accent-color); */
   /* font-size: 14px; */
   /* display: block; */
-  font-family: Ubuntu;
+  font-family: "Ubuntu Sans";
   /* font-weight: bolder; */
 }
 
@@ -290,7 +292,7 @@ ul {
 }
 
 .page_title {
-  font-family: Ubuntu;
+  font-family: "Ubuntu Sans";
   font-weight: bolder;
   font-size: 1.5em;
   margin-top: 10%;
@@ -299,7 +301,7 @@ ul {
 
 .page_meta {
   display: block;
-  font-family: "Ubuntu Mono";
+  font-family: "Ubuntu Sans";
   font-size: 14px;
 }
 
@@ -308,9 +310,9 @@ ul {
 }
 
 .email {
-  /* color: #a00; */
+  /* color: var(--accent-color); */
   font-size: 16px;
-  font-family: "Ubuntu Mono";
+  font-family: "Ubuntu Sans";
   font-weight: bolder;
 }
 
@@ -334,13 +336,13 @@ ul {
 }
 
 .code_blog {
-    font-family: "Ubuntu Mono";
+    font-family: "Ubuntu Sans";
     font-size: 14px;
     margin: 0em .9em 0em;
 }
 
 .blog_cv {
-    font-family: "Ubuntu Mono";
+    font-family: "Ubuntu Sans";
     font-size: 17px;
     /* margin: 0em .9em 0em; */
 }
@@ -444,6 +446,7 @@ ul {
 }
 
 body.home-page {
+  --home-page-width: 940px;
   --home-sidebar-width: 255px;
   --home-column-gap: 32px;
   --home-topbar-height: 57px;
@@ -451,7 +454,7 @@ body.home-page {
 }
 
 .home-page .container.wrapper {
-  max-width: 1060px;
+  max-width: var(--home-page-width);
   margin-top: 20px;
   display: grid;
   grid-template-columns: var(--home-sidebar-width) minmax(0, 1fr);
@@ -467,7 +470,7 @@ body.home-page {
 }
 
 .home-page .page-topbar-inner {
-  max-width: 1060px;
+  max-width: var(--home-page-width);
   margin: 0 auto;
   padding: 15px 0 12px;
   display: grid;
@@ -479,11 +482,12 @@ body.home-page {
 
 .home-page .page-topbar-title {
   grid-column: 1;
-  font-family: "Ubuntu Mono";
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 0.84rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  white-space: nowrap;
   color: #555;
 }
 
@@ -529,7 +533,9 @@ body.home-page {
 
 .home-page .header .site-title {
   margin: 0 0 1px;
+  color: #333;
   font-size: 1.65rem;
+  font-weight: 350;
   line-height: 1.15;
 }
 
@@ -549,7 +555,7 @@ body.home-page {
 
 .home-page .header .site-affilation h6 {
   margin: 0 0 10px;
-  font-family: "Ubuntu Mono";
+  font-family: "Ubuntu Sans";
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -566,7 +572,7 @@ body.home-page {
   display: block;
   font-size: 1.05rem;
   font-weight: 400;
-  color: #330;
+  color: #333;
 }
 
 .home-page .header .site-affilation .email {
@@ -582,7 +588,7 @@ body.home-page {
 
 .home-page .profile-links h6 {
   margin: 0 0 10px;
-  font-family: "Ubuntu Mono";
+  font-family: "Ubuntu Sans";
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -616,6 +622,8 @@ body.home-page {
 
 .home-page .profile-links .email {
   margin-top: 0;
+  font-family: inherit;
+  font-weight: 400;
 }
 
 .home-page .profile-links a span {
@@ -628,7 +636,7 @@ body.home-page {
   font-size: 0.86rem;
   line-height: 1.25;
   white-space: nowrap;
-  color: #330;
+  color: #333;
 }
 
 .home-page .profile-links svg {
@@ -666,13 +674,13 @@ body.home-page {
 }
 
 .home-page .section-navbar a:hover {
-  color: #a00;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
 .home-page .section-navbar a.is-active {
-  color: #a00;
-  border-bottom: 2px solid #a00;
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
   text-decoration: none;
 }
 
@@ -685,18 +693,26 @@ body.home-page {
 }
 
 .home-page .home-section > h2 {
-  margin: 0 0 14px;
   padding-bottom: 8px;
   border-bottom: 1px solid #ececec;
-  font-size: 2rem;
+  color: #333;
+  font-size: 1.55rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.home-page .home-section > h2 {
+  margin: 0 0 14px;
 }
 
 .home-page .page-copy h2 {
-  margin: 24px 0 10px;
+  margin: 26px 0 11px;
   padding-bottom: 0;
   border-bottom: none;
-  font-size: 1.35rem;
+  color: #333;
+  font-size: 1.1rem;
   font-weight: 400;
+  line-height: 1.3;
 }
 
 .home-page .page-copy h3 {
@@ -707,7 +723,7 @@ body.home-page {
 
 .home-page .home-section h3 {
   margin: 26px 0 14px;
-  color: #330;
+  color: #333;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -724,6 +740,7 @@ body.home-page {
   margin-bottom: 0;
 }
 
+
 .home-page .page-copy ul {
   list-style: disc outside;
   padding-left: 22px;
@@ -733,30 +750,91 @@ body.home-page {
   margin-bottom: 10px;
 }
 
-.home-page .page-copy > ol {
-  margin: 0;
-  padding-left: 2.2rem;
+.home-page .talk-listing li {
+  margin-bottom: 14px;
 }
 
+.home-page .talk-listing li:last-child {
+  margin-bottom: 0;
+}
+
+.home-page .news-section {
+  margin-top: 48px;
+}
+
+.home-page .news-list {
+  margin: 0;
+  padding: 0;
+}
+
+.home-page .news-item {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+
+.home-page .news-item:last-child {
+  margin-bottom: 0;
+}
+
+.home-page .news-item dt,
+.home-page .news-item dd {
+  min-width: 0;
+  margin: 0;
+  font-weight: inherit;
+}
+
+.home-page .news-item dt {
+  white-space: nowrap;
+}
+
+.home-page .page-copy > ol {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.home-page .publication-listing > h2:first-child {
+  margin-top: 28px;
+}
+
+.home-page .publication-listing > ol + h2 {
+  margin-top: 42px;
+}
 
 .home-page .publication-listing .paper-title {
-  color: #8f1d1d;
-  font-size: 1.03rem;
+  color: var(--accent-color);
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 400;
+  line-height: inherit;
+}
+
+.home-page .publication-listing li em {
+  font-style: normal;
+}
+
+.home-page .publication-listing li strong {
   font-weight: 500;
-  line-height: 1.35;
+}
+
+.home-page .talk-listing li strong {
+  font-weight: 500;
 }
 
 .home-page .page-copy .award-note {
-  display: inline-block;
+  display: inline;
   margin-left: 0.35rem;
-  padding: 0.1rem 0.45rem;
-  border: 1px solid #d9a3a3;
-  border-radius: 999px;
-  background: #f8e9e9;
-  color: #a00;
-  font-size: 0.82rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #333;
+  font-size: 0.9rem;
+  font-style: normal;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: inherit;
+  white-space: nowrap;
 }
 
 .home-page .home-list {
@@ -815,7 +893,7 @@ body.home-page {
 }
 
 .home-page .footer {
-  max-width: 1060px;
+  max-width: var(--home-page-width);
   margin: 30px auto 0;
 }
 
@@ -912,7 +990,7 @@ body.home-page {
 
   .home-page .page-topbar-title {
     font-size: 0.72rem;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.01em;
   }
 
   .home-page .header {
