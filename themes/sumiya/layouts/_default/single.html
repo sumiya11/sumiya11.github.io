@@ -9,7 +9,7 @@
         <main class="home-main" aria-label="Main content">
           <section class="home-section page-section">
             <h2>{{ .Title }}</h2>
-            <div class="page-copy{{ if eq .RelPermalink "/publications/" }} publication-listing{{ end }}">
+            <div class="page-copy{{ if eq .RelPermalink "/publications/" }} publication-listing{{ end }}{{ if eq .RelPermalink "/talks/" }} talk-listing{{ end }}">
               {{ .Content }}
             </div>
           </section>

@@ -7,7 +7,7 @@
 			{{ partial "head.html" . }}
 			<div class="home-content">
 				<main class="home-main" aria-label="Main content">
-					<section class="home-section page-section">
+					<section class="home-section page-section about-section">
 						<h2>About</h2>
 						{{- $aboutContent := .Content -}}
 						{{- if and (not $aboutContent) .RawContent -}}
@@ -23,6 +23,19 @@
 							{{- end -}}
 						</div>
 					</section>
+					{{- with .Params.news }}
+					<section class="home-section page-section news-section">
+						<h2>Upcoming</h2>
+						<dl class="news-list">
+							{{- range . }}
+							<div class="news-item">
+								<dt>{{ .date }}</dt>
+								<dd>{{ .text | markdownify }}</dd>
+							</div>
+							{{- end }}
+						</dl>
+					</section>
+					{{- end }}
 				</main>
 			</div>
 		</div>
