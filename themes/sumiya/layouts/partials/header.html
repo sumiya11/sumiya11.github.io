@@ -22,8 +22,10 @@
 	{{- template "_internal/twitter_cards.html" . -}}
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" media="screen" href="{{ "css/normalize.css" | relURL }}" />
-	<link rel="stylesheet" type="text/css" media="screen" href="{{ "css/main.css" | relURL }}" />
+	{{- $normalize := resources.FromString "css/normalize.css" (readFile "static/css/normalize.css") | fingerprint "sha384" -}}
+	{{- $main := resources.FromString "css/main.css" (readFile "static/css/main.css") | fingerprint "sha384" -}}
+	<link rel="stylesheet" type="text/css" media="screen" href="{{ $normalize.RelPermalink }}" integrity="{{ $normalize.Data.Integrity }}" />
+	<link rel="stylesheet" type="text/css" media="screen" href="{{ $main.RelPermalink }}" integrity="{{ $main.Data.Integrity }}" />
 
 	{{ range .Site.Params.custom_css -}}
 	<link rel="stylesheet" href="{{ . | relURL }}">
