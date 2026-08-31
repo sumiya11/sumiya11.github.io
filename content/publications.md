@@ -2,16 +2,30 @@
 title: "Publications"
 ---
 
+## Preprints
+
+1. <cite><a class="paper-title" href="https://arxiv.org/abs/2602.10878">Simple generators of rational function fields</a></cite>. *preprint, 2026*.<br>
+  **Alexander Demin** and Gleb Pogudin.
+
+1. <cite><a class="paper-title" href="https://arxiv.org/abs/2402.07141">Reading Rational Univariate Representations on lexicographic Groebner bases</a></cite>. *preprint, 2024*.<br>
+  **Alexander Demin**, Fabrice Rouillier, and Joao Ruiz.
+
+1. <cite><a class="paper-title" href="https://arxiv.org/abs/2304.06935">Groebner.jl: A package for Groebner bases computations in Julia</a></cite>. *preprint, 2024*.<br>
+  **Alexander Demin** and Shashi Gowda.
+
 ## Journal Papers (Peer-Reviewed)
 
+1. <cite><a class="paper-title" href="https://doi.org/10.1016/j.aam.2026.103149">Redactable blockchains and polynomial equations</a></cite>. *Advances in Applied Mathematics* 181 (2026) 103149.<br>
+  **Alexander Demin**, Alexey Ovchinnikov, and Vladimir Shpilrain.
+
 1. <cite><a class="paper-title" href="https://doi.org/10.1016/j.jco.2025.101934">Factoring sparse polynomials fast</a></cite>. *Journal of Complexity* 88 (2025) 101934. [preprint](https://arxiv.org/abs/2312.17380)<br>
-  **Alexander Demin** and Joris van der Hoeven (alphabetical order).
+  **Alexander Demin** and Joris van der Hoeven.
 
 1. <cite><a class="paper-title" href="https://doi.org/10.1016/j.revip.2025.100120">Progress in end-to-end optimization of fundamental physics experimental apparata with differentiable programming</a></cite>. *Reviews in Physics* 13 (2025) 100120. [preprint](https://arxiv.org/abs/2310.05673)<br>
   Max Aehle, Lorenzo Arsini, and 28 others, including **Alexander Demin**.
 
 1. <cite><a class="paper-title" href="https://doi.org/10.1016/j.cnsns.2024.107816">Exact hierarchical reductions of dynamical models via linear transformations</a></cite>. *Communications in Nonlinear Science and Numerical Simulation* 131 (2024) 107816. [preprint](https://arxiv.org/abs/2301.11653)<br>
-  **Alexander Demin**, Elizaveta Demitraki, and Gleb Pogudin (alphabetical order).
+  **Alexander Demin**, Elizaveta Demitraki, and Gleb Pogudin.
 
 ## Conference Papers (Peer-Reviewed)
 
@@ -32,16 +46,7 @@ title: "Publications"
 1. <cite><a class="paper-title" href="https://doi.org/10.21105/joss.09501">LikelihoodProfiler.jl: Unified profile-likelihood workflows for identifiability and confidence intervals</a></cite>. *Journal of Open Source Software* 11(117) (2026) 9501.<br>
   Ivan Borisov, **Alexander Demin**, and Evgeny Metelkin.
 
-## Preprints and Research Reports
-
-1. <cite><a class="paper-title" href="https://arxiv.org/abs/2602.10878">Simple generators of rational function fields</a></cite>. *preprint, 2026*.<br>
-  **Alexander Demin** and Gleb Pogudin.
-
-1. <cite><a class="paper-title" href="https://arxiv.org/abs/2402.07141">Reading Rational Univariate Representations on lexicographic Groebner bases</a></cite>. *preprint, 2024*.<br>
-  **Alexander Demin**, Fabrice Rouillier, and Joao Ruiz (alphabetical order).
-
-1. <cite><a class="paper-title" href="https://arxiv.org/abs/2304.06935">Groebner.jl: A package for Groebner bases computations in Julia</a></cite>. *preprint, 2024*.<br>
-  **Alexander Demin** and Shashi Gowda.
+## Research Reports
 
 1. <cite><a class="paper-title" href="/ranbox_report.pdf">A Semi-supervised Learning Method for the Search of Rare Processes in LHC Data</a></cite>. *Report 2.1 of INSIGHTS ITN to European Commission, 2022*.<br>
   Hevjin Yarar, **Alexander Demin**, Tommaso Dorigo, Luca Quagliarella, and Andrey Ustyuzhanin.
