@@ -4,6 +4,9 @@ title: "Publications"
 
 ## Preprints
 
+1. <cite><a class="paper-title" href="https://arxiv.org/abs/2609.06134">Observable functions of rational ODE models and how to find them</a></cite>. *preprint, 2026*.<br>
+  **Alexander Demin**, Gleb Pogudin, and Christopher Rackauckas.
+
 1. <cite><a class="paper-title" href="https://arxiv.org/abs/2602.10878">Simple generators of rational function fields</a></cite>. *preprint, 2026*.<br>
   **Alexander Demin** and Gleb Pogudin.
 

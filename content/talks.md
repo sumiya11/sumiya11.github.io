@@ -2,6 +2,8 @@
 title: "Talks"
 ---
 
+1. Conference talk, Simple generators of rational function fields via adaptive interpolation and Gröbner Bases. Algebraic Methods for Polynomial System Solving (**albatross 2026**), Paris, France.
+
 1. Conference talk, Groebner.jl: Fast Gröbner Tracing in Julia. International Congress on Mathematical Software (**ICMS 2026**), Canada.
 
 1. Conference talk, Fast Rational Univariate Representation via Gaussian Elimination. International Congress on Mathematical Software (**ICMS 2026**), Canada.
