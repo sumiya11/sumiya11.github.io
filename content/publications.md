@@ -4,6 +4,9 @@ title: "Publications"
 
 ## Preprints
 
+1. <cite><a class="paper-title" href="https://arxiv.org/abs/2609.14433">Probably correct row echelon form in the F4 algorithm</a></cite>. *preprint, 2026*.<br>
+  **Alexander Demin**.
+   
 1. <cite><a class="paper-title" href="https://arxiv.org/abs/2609.06134">Observable functions of rational ODE models and how to find them</a></cite>. *preprint, 2026*.<br>
   **Alexander Demin**, Gleb Pogudin, and Christopher Rackauckas.
 
