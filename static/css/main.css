@@ -763,20 +763,17 @@ body.home-page {
 }
 
 .home-page .news-list {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 20px;
+  row-gap: 12px;
+  align-items: baseline;
   margin: 0;
   padding: 0;
 }
 
 .home-page .news-item {
-  display: grid;
-  grid-template-columns: 112px minmax(0, 1fr);
-  column-gap: 16px;
-  align-items: baseline;
-  margin-bottom: 12px;
-}
-
-.home-page .news-item:last-child {
-  margin-bottom: 0;
+  display: contents;
 }
 
 .home-page .news-item dt,
