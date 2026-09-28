@@ -4,6 +4,9 @@ title: "Publications"
 
 ## Preprints
 
+1. <cite><a class="paper-title" href="https://arxiv.org/abs/2609.30451">Practical Algebraic Parameter Estimation for Noisy Data via Gaussian Process Regression</a></cite>. *preprint, 2026*.<br>
+  Oren Bassik, **Alexander Demin**, and Alexey Ovchinnikov.
+
 1. <cite><a class="paper-title" href="https://arxiv.org/abs/2609.14433">Probably correct row echelon form in the F4 algorithm</a></cite>. *preprint, 2026*.<br>
   **Alexander Demin**.
    
