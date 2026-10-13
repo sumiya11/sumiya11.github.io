@@ -514,6 +514,19 @@ body.home-page {
   align-self: start;
 }
 
+.home-page .home-easter-egg {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 36px;
+}
+
+.home-page .home-easter-egg img {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+}
+
 .home-page .header .profile_image {
   display: block;
   width: 148px;
