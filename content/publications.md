@@ -4,6 +4,9 @@ title: "Publications"
 
 ## Preprints
 
+1. <cite><a class="paper-title" href="https://eprint.iacr.org/2026/2515">CHAMP: Cayley HAshing with Matrix Products</a></cite>. *preprint, 2026*.<br>
+  **Alexander Demin**, Alexey Ovchinnikov, and Vladimir Shpilrain.
+
 1. <cite><a class="paper-title" href="https://arxiv.org/abs/2609.30451">Practical Algebraic Parameter Estimation for Noisy Data via Gaussian Process Regression</a></cite>. *preprint, 2026*.<br>
   Oren Bassik, **Alexander Demin**, and Alexey Ovchinnikov.
 
