@@ -34,7 +34,7 @@ title: "Talks"
 
 1. Seminar talk, Factoring sparse polynomials fast. **Seminar of the MAX Team, 2023**, LIX, École Polytechnique, France.
 
-1. Seminar talk, Finding exact linear reductions of dynamical models. **Seminar of the MAX Team, 2023**, LIX, École Polytechnique, France.
+1. Seminar talk, Finding exact linear reductions of dynamical models. [**Seminar of the MAX Team, 27 March 2023**](https://www.lix.polytechnique.fr/max/max-web/max/max-seminar.en.html), LIX, École Polytechnique, France.
 
 1. Conference talk, On applications of Gröbner bases. Scientific Student Conference (**HSE 2022**), HSE University, Russia. <span class="award-note">Best student talk</span>
 
