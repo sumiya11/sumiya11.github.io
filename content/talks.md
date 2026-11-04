@@ -2,6 +2,8 @@
 title: "Talks"
 ---
 
+1. Upcoming seminar talk, Factoring sparse polynomials fast. [**Seminar of the MAX Team**](https://www.lix.polytechnique.fr/max/max-web/max/max-seminar.en.html), LIX, École Polytechnique, France, 9 November 2026, 11:30–12:30 (Henri Poincaré room).
+
 1. Conference poster, High-performance polynomial system solving in Julia. [**GDR C4P 2026 General Assembly**](https://ag-gdr-c4p-2026.sciencesconf.org/browse/typdoc?lang=en), Paris, France, 15–16 October 2026.
 
 1. Conference talk, Observable functions of rational ODE models and how to find them. [**JCC-IB26**](https://ddal.inria.fr/adn_etat/jcc-ib.html), IHP, Paris, France, 14 October 2026. [Slides](/jcc-ib26-slides.pdf).
@@ -34,7 +36,7 @@ title: "Talks"
 
 1. Seminar talk, Factoring sparse polynomials fast. **Seminar of the MAX Team, 2023**, LIX, École Polytechnique, France.
 
-1. Seminar talk, Finding exact linear reductions of dynamical models. [**Seminar of the MAX Team, 27 March 2023**](https://www.lix.polytechnique.fr/max/max-web/max/max-seminar.en.html), LIX, École Polytechnique, France.
+1. Seminar talk, Finding exact linear reductions of dynamical models. **Seminar of the MAX Team, 2023**, LIX, École Polytechnique, France.
 
 1. Conference talk, On applications of Gröbner bases. Scientific Student Conference (**HSE 2022**), HSE University, Russia. <span class="award-note">Best student talk</span>
 
