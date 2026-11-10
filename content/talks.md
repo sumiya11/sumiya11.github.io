@@ -2,7 +2,7 @@
 title: "Talks"
 ---
 
-1. Seminar talk, Factoring sparse polynomials fast. [**Seminar of the MAX Team**](https://www.lix.polytechnique.fr/max/max-web/max/max-seminar.en.html), LIX, École Polytechnique, France, 9 November 2026.
+1. Seminar talk, Factoring sparse polynomials fast. [**Seminar of the MAX Team**](https://www.lix.polytechnique.fr/max/max-web/max/max-seminar.en.html), LIX, École Polytechnique, France, 9 November 2026. [Slides](/lix-max-seminar-2026-slides.pdf).
 
 1. Conference poster, High-performance polynomial system solving in Julia. [**GDR C4P 2026 General Assembly**](https://ag-gdr-c4p-2026.sciencesconf.org/browse/typdoc?lang=en), Paris, France, 15–16 October 2026.
 
