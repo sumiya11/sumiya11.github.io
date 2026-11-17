@@ -34,7 +34,7 @@ title: "Talks"
 
 1. Conference poster, Computing and simplifying the observation field of an ODE control system. Conference on Differential Algebra and Related Topics (**DART XII, 2024**), Germany.
 
-1. Seminar talk, Factoring sparse polynomials fast. **Seminar of the MAX Team, 2023**, LIX, École Polytechnique, France.
+1. Seminar talk, Factoring sparse polynomials fast. **Seminar of the MAX Team, 2023**, LIX, École Polytechnique, France. [Updated slides (2026)](/lix-max-seminar-2026-slides.pdf).
 
 1. Seminar talk, Finding exact linear reductions of dynamical models. **Seminar of the MAX Team, 2023**, LIX, École Polytechnique, France.
 
